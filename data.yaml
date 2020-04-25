@@ -1,0 +1,182 @@
+base_url: https://github.com/pkucmus/EVA/blob/master
+
+carriages:
+  v6:
+    name: "V6 (bowden)"
+    id: v6_bowden
+    footprint:
+      - 62.35
+      - 133.25
+    bom:
+      - name: "v21 9mm slider.stl"
+        type: Printed
+        qty: 2
+        notes:
+      - name: "Tops - Top Cable.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Faces - V6 Front.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Faces - V6.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Bottoms - Straight.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Backs - Back with Tensioning.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Cable Mounts - Top.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Horns - Duct v2.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "5015 Blower Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "4010/4020 Radial Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "M3 hex nut"
+        type: Hardware
+        qty: 12
+        notes:
+      - name: "M5 nyloc hex nut"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M5x12 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x10 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x12 hex screw"
+        type: Hardware
+        qty: 5
+        notes: "4 to mount to MGN"
+      - name: "M3x20 hex screw"
+        type: Hardware
+        qty: 5
+        notes:
+      - name: "M3x30 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x40 hex screw"
+        type: Hardware
+        qty: 4
+        notes:
+      - name: "E3D V6 Hotend"
+        type: Other
+        qty: 1
+        notes:
+  v6_titan:
+    name: "Titan V6"
+    id: v6_titan
+    footprint:
+      - 62.35
+      - 133.25
+    bom:
+      - name: "v21 9mm slider.stl"
+        type: Printed
+        qty: 2
+        notes:
+      - name: "Tops - Top Titan.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Faces - V6 Front.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Faces - Titan.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Bottoms - Straight.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Backs - Back with Tensioning.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Cable Mounts - Side.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Horns - Duct v2.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Titan press fit adapter.stl"
+        type: Printed
+        qty: 1
+        notes: "Optional - if you need one"
+      - name: "5015 Blower Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "4010/4020 Radial Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "M3 hex nut"
+        type: Hardware
+        qty: 13
+        notes:
+      - name: "M5 nyloc hex nut"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M5x12 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x10 hex screw"
+        type: Hardware
+        qty: 4
+        notes: "2 for the probe mount"
+      - name: "M3x12 hex screw"
+        type: Hardware
+        qty: 4
+        notes: "4 to mount to MGN"
+      - name: "M3x20 hex screw"
+        type: Hardware
+        qty: 5
+        notes:
+      - name: "M3x30 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x40 hex screw"
+        type: Hardware
+        qty: 4
+        notes:
+      - name: "E3D V6 Hotend"
+        type: Other
+        qty: 1
+        notes:
+      - name: "E3D Titan"
+        type: Other
+        qty: 1
+        notes: "With the included screws"
+      - name: "PTFE Bowden tube"
+        type: Other
+        qty: 1
+        notes: "73.60mm"
+
