@@ -58,7 +58,7 @@ if __name__ == "__main__":
     home_table_data = []
 
     for carriage in data["carriages"].values():
-        # genearate_gifs_from_directory("images/gifs/source", carriage)
+        genearate_gifs_from_directory("images/gifs/source", carriage)
         template = TEMPLATE_ENV.get_template("wiki/templates/carriage.md.template")
 
         bom_string = make_bom(carriage["bom"])
