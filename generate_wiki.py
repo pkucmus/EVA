@@ -37,23 +37,47 @@ def resize_all_in_directory(path, size):
 
 
 def genearate_gifs_from_directory(path, carriage):
-    resize_all_in_directory(os.path.join(path, carriage["id"]), "768x543")
-    generate_gif(f"images/gifs/{carriage['id']}.gif", f"images/gifs/source/{carriage['id']}/resized")
+    resize_all_in_directory(os.path.join(path, carriage["id"]), "512x512")
+    generate_gif(
+        f"images/gifs/{carriage['id']}.gif",
+        f"images/gifs/source/{carriage['id']}/resized",
+    )
     shutil.rmtree(f"images/gifs/source/{carriage['id']}/resized")
 
 
 def make_bom(bom_data):
-    return markdown_table.render(["Name", "Type", "Qty", "Notes"], [map(str, item.values()) for item in bom_data])
+    return markdown_table.render(
+        ["Name", "Type", "Qty", "Notes"], [map(str, item.values()) for item in bom_data]
+    )
+
 
 if __name__ == "__main__":
     with open("data.yaml", "r") as data_file:
         data = yaml.safe_load(data_file)
 
+    home_table_data = []
+
     for carriage in data["carriages"].values():
-        genearate_gifs_from_directory("images/gifs/source", carriage)
-        template = TEMPLATE_ENV.get_template("wiki/templates/carriage.md")
+        # genearate_gifs_from_directory("images/gifs/source", carriage)
+        template = TEMPLATE_ENV.get_template("wiki/templates/carriage.md.template")
 
         bom_string = make_bom(carriage["bom"])
 
         with open(os.path.join("wiki", f"{carriage['id']}.md"), "w") as page_file:
-            page_file.write(template.render({"base_url": data["base_url"], "carriage": carriage, "bom": bom_string}))
+            page_file.write(
+                template.render(
+                    {
+                        "base_url": data["base_url"],
+                        "carriage": carriage,
+                        "bom": bom_string,
+                    }
+                )
+            )
+
+    template = TEMPLATE_ENV.get_template("wiki/templates/home.md.template")
+    with open(os.path.join("wiki", "home.md"), "w") as home_file:
+        home_file.write(
+            template.render(
+                {"data": data}
+            )
+        )
