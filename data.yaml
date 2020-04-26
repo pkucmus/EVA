@@ -367,4 +367,91 @@ carriages:
         type: Other
         qty: 1
         notes:
+
+  hemera_alt:
+    name: "Hemera Alternative"
+    id: hemera_alt
+    footprint:
+      - 78.59
+      - 147.25
+    status: "Tests Pending"
+    bom:
+      - name: "v21 9mm slider.stl"
+        type: Printed
+        qty: 2
+        notes:
+      - name: "Faces - Hemera Alt.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Faces - Hemera Probe Front.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Tops - Top Cable.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Bottoms - Straight.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Backs - Back with Tensioning.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Cable Mounts - Top.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Horns - Duct v2 Angled 20deg.stl"
+        type: Printed
+        qty: 1
+        notes:
+
+      - name: "5015 Blower Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "4010/4020 Radial Fan"
+        type: Electronics
+        qty: 1
+        notes:
+
+      - name: "M3 hex nut"
+        type: Hardware
+        qty: 10
+        notes:
+      - name: "M5 nyloc hex nut"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M5x12 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x8 hex screw"
+        type: Hardware
+        qty: 3
+        notes:
+      - name: "M3x10 hex screw"
+        type: Hardware
+        qty: 6
+        notes: "2 for the probe holder"
+      - name: "M3x12 hex screw"
+        type: Hardware
+        qty: 5
+        notes: "4 to mount to MGN"
+      - name: "M3x20 hex screw"
+        type: Hardware
+        qty: 3
+        notes:
+      - name: "M3x40 hex screw"
+        type: Hardware
+        qty: 4
+        notes:
+      - name: "E3D Hemera"
+        type: Other
+        qty: 1
+        notes:
         
