@@ -455,3 +455,82 @@ carriages:
         qty: 1
         notes:
         
+  titan_aero:
+    name: "Titan Aero"
+    id: titan_aero
+    footprint:
+      - 69.8
+      - 149.35
+    status: "Tests Pending"
+    bom:
+      - name: "v21 9mm slider.stl"
+        type: Printed
+        qty: 2
+        notes:
+      - name: "Faces - Aero.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Tops - Top Cable.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Bottoms - Aero.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Backs - Back with Tensioning.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Cable Mounts - Top.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Horns - Duct v2.stl"
+        type: Printed
+        qty: 1
+        notes:
+
+      - name: "5015 Blower Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "4010/4020 Radial Fan"
+        type: Electronics
+        qty: 1
+        notes:
+
+      - name: "M3 hex nut"
+        type: Hardware
+        qty: 10
+        notes:
+      - name: "M5 nyloc hex nut"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M5x35 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x12 hex screw"
+        type: Hardware
+        qty: 5
+        notes: "4 to mount to MGN"
+      - name: "M3x20 hex screw"
+        type: Hardware
+        qty: 1
+        notes:
+      - name: "M3x25 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x40 hex screw"
+        type: Hardware
+        qty: 4
+        notes:
+      - name: "E3D Titan with Aero"
+        type: Other
+        qty: 1
+        notes: "With the included screws"
+        
