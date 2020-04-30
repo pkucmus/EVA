@@ -7,16 +7,6 @@ I present to you the EVA carriage platform - easy to mount, remix and use MGN ca
 
 They work great with the [Rat Rig V-core Pro](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-core-pro-linear-rail-701.html) "Easy mod" I created: https://www.thingiverse.com/thing:4151822
 
-As of now 4 hotends are supported:
-
-| Hotend                | State         |
-| --------------------- | :-----------: |
-| V6 (Bowden)           | Tested        |
-| Titan V6              | Tested        |
-| BMG V6                | Pending tests |
-| Hemera                | Pending tests |
-| Hemera (Alternative)  | Pending tests |
-
 ## Contribution
 
 If you want to help with testing - please grab a carriage and report your findings as an [issue](https://github.com/pkucmus/EVA/issues) - please include pictures, videos and your opinion.
