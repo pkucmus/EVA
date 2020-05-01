@@ -5,7 +5,9 @@
 
 I present to you the EVA carriage platform - easy to mount, remix and use MGN carriages for different Hotend assemblies.
 
-They work great with the [Rat Rig V-core Pro](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-core-pro-linear-rail-701.html) "Easy mod" I created: https://www.thingiverse.com/thing:4151822
+They work great with the [Rat Rig V-core Pro](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-core-pro-linear-rail-701.html) "Easy mod" I created: https://github.com/pkucmus/Easy-Mod
+
+A rather lenghty video trying to talk about those: https://www.youtube.com/watch?v=1nZcQRguJ_s
 
 ## Contribution
 
