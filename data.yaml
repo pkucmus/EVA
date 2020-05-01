@@ -153,7 +153,7 @@ carriages:
       - name: "M3x10 hex screw"
         type: Hardware
         qty: 2
-        notes: 
+        notes:
       - name: "M3x12 hex screw"
         type: Hardware
         qty: 6
@@ -272,7 +272,7 @@ carriages:
       - name: "BMG Extruder"
         type: Other
         qty: 1
-        notes: 
+        notes:
       - name: "PTFE Bowden tube"
         type: Other
         qty: 1
@@ -454,7 +454,7 @@ carriages:
         type: Other
         qty: 1
         notes:
-        
+
   titan_aero:
     name: "Titan Aero"
     id: titan_aero
@@ -503,7 +503,7 @@ carriages:
 
       - name: "M3 hex nut"
         type: Hardware
-        qty: 10
+        qty: 11
         notes:
       - name: "M5 nyloc hex nut"
         type: Hardware
@@ -512,6 +512,10 @@ carriages:
       - name: "M5x35 hex screw"
         type: Hardware
         qty: 2
+        notes:
+      - name: "M3x8 hex screw"
+        type: Hardware
+        qty: 1
         notes:
       - name: "M3x12 hex screw"
         type: Hardware
@@ -533,4 +537,3 @@ carriages:
         type: Other
         qty: 1
         notes: "With the included screws"
-        
