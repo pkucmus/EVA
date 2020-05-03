@@ -7,7 +7,7 @@ I present to you the EVA carriage platform - easy to mount, remix and use MGN ca
 
 They work great with the [Rat Rig V-core Pro](https://www.ratrig.com/3d-printing-cnc/3d-printer-kits/complete-kits/rat-rig-v-core-pro-linear-rail-701.html) "Easy mod" I created: https://github.com/pkucmus/Easy-Mod
 
-A rather lenghty video trying to talk about those: https://www.youtube.com/watch?v=1nZcQRguJ_s
+A rather poor attempt to talk about those: https://www.youtube.com/playlist?list=PLR8LTCniA766Mg1a88iF8xhOlvZR-Rc3A
 
 ## Contribution
 
