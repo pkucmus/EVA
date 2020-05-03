@@ -461,7 +461,7 @@ carriages:
     footprint:
       - 69.8
       - 149.35
-    status: "Tests Pending"
+    status: "Tested"
     bom:
       - name: "v21 9mm slider.stl"
         type: Printed
