@@ -4,7 +4,15 @@
      <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
+     <loc>https://pkucmus.github.io/EVA/bed_probing/</loc>
+     <lastmod>2020-05-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
      <loc>https://pkucmus.github.io/EVA/getting_started/</loc>
+     <lastmod>2020-05-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://pkucmus.github.io/EVA/printed_parts/</loc>
      <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -41,6 +49,10 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pkucmus.github.io/EVA/sub_assemblies/bottom_8mm_angled/</loc>
+     <lastmod>2020-05-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/cartesian_back/</loc>
      <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>

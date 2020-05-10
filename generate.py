@@ -100,13 +100,13 @@ def render_assembly_page(name, assembly, context):
 
 if __name__ == "__main__":
     # change_stl_filenames(os.path.join(BASE_PATH, "..", "stl")
-    # render_templates()
     # print_parts(os.path.join(BASE_PATH, "..", "stl"))
     with open(os.path.join(BASE_PATH, "data.yml"), "r") as data_file:
         data = yaml.safe_load(data_file)
 
     context = {"data": data}
     render_template("getting_started.md.template", os.path.join(BASE_PATH, "getting_started.md"), context)
+    render_template("printed_parts.md.template", os.path.join(BASE_PATH, "printed_parts.md"), context)
 
     for name, subassembly in data["sub_assemblies"].items():
         render_sub_assembly_page(name, subassembly, data)

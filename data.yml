@@ -111,7 +111,9 @@ sub_assemblies:
       - part: "Nema 17 Pancake 23mm"
         qty: 1
   core_xy_back:
-    description:
+    description: |
+      !!! info "More angles"
+          Check the [Printed parts](../../printed_parts/) page for more fan angles
     parts:
       - part: "M3 x 20mm"
         qty: 1
@@ -126,6 +128,23 @@ sub_assemblies:
       - part: "tension_slider_9mm_belt_M5"
         qty: 2
       - part: "back_corexy_60deg"
+        qty: 1
+  cartesian_back:
+    description: |
+      !!! info "More angles"
+          Check the [Printed parts](../../printed_parts/) page for more fan angles
+    parts:
+      - part: "M3 x 20mm"
+        qty: 1
+      - part: "M3 x 35mm"
+        qty: 1
+      - part: "M3 hex nut"
+        qty: 6
+      - part: "5015 Blower Fan"
+        qty: 1
+      - part: "tension_slider_6mm_belt_M3"
+        qty: 2
+      - part: "back_cartesian_60deg"
         qty: 1
   bottom_8mm:
     description:
