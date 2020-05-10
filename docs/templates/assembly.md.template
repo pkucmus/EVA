@@ -11,12 +11,12 @@ title: {{ display_name }}
 
 | Name | Link |
 | ---- | ---- |
-{% for name in sub_assemblies %}| {{ name }} | [{{ name }}](/sub_assemblies/{{ name }}) |
+{% for name in sub_assemblies %}| {{ name }} | [{{ name }}](../../sub_assemblies/{{ name }}) |
 {% endfor %}
 
 ## Images
 
-![](/assets/images/{{ name }}.png)![](/assets/images/gifs/{{ name }}.gif)
+![](../assets/images/{{ name }}.png)![](../assets/images/gifs/{{ name }}.gif)
 
 ## Full Parts BOM
 

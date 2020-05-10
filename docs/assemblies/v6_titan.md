@@ -11,16 +11,16 @@ title: V6 Titan
 
 | Name | Link |
 | ---- | ---- |
-| v6 | [v6](/sub_assemblies/v6) |
-| top_titan | [top_titan](/sub_assemblies/top_titan) |
-| core_xy_back | [core_xy_back](/sub_assemblies/core_xy_back) |
-| bottom_8mm | [bottom_8mm](/sub_assemblies/bottom_8mm) |
-| face_titan | [face_titan](/sub_assemblies/face_titan) |
+| v6 | [v6](../../sub_assemblies/v6) |
+| top_titan | [top_titan](../../sub_assemblies/top_titan) |
+| core_xy_back | [core_xy_back](../../sub_assemblies/core_xy_back) |
+| bottom_8mm | [bottom_8mm](../../sub_assemblies/bottom_8mm) |
+| face_titan | [face_titan](../../sub_assemblies/face_titan) |
 
 
 ## Images
 
-![](/assets/images/v6_titan.png)![](/assets/images/gifs/v6_titan.gif)
+![](../assets/images/v6_titan.png)![](../assets/images/gifs/v6_titan.gif)
 
 ## Full Parts BOM
 
@@ -43,7 +43,7 @@ title: V6 Titan
 | bottom_8mm_duct | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_8mm_duct.stl) |
 | cable_side | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Cable%20Mounts/cable_side.stl) |
 | face_titan | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_titan.stl) |
-| face_v6_40mm_fan | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Faces/fave_v6_40mm_fan.stl) |
+| face_v6_40mm_fan | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_v6_40mm_fan.stl) |
 | horn_duct_v2_straight | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_straight.stl) |
 | tension_slider_9mm_belt_M5 | 2 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Backs/tension_slider_9mm_belt_M5.stl) |
 | top_titan | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_titan.stl) |

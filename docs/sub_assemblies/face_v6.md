@@ -7,11 +7,12 @@ title: face_v6
 
 
 
+
 ??? info "Used in"
     
-    * [V6 Bowden Assembly](/assemblies/v6_bowden)
+    * [V6 Bowden Assembly](../../assemblies/v6_bowden)
     
-    * [V6 BMG Assembly](/assemblies/v6_bmg)
+    * [V6 BMG Assembly](../../assemblies/v6_bmg)
     
 
 
@@ -27,4 +28,10 @@ title: face_v6
 
 ## Images
 
-![](/assets/images/sub_assemblies/face_v6.png)![](/assets/images/sub_assemblies/face_v6_exploded.png)
+### Assembled
+
+![](../assets/images/sub_assemblies/face_v6.png)
+
+### Exploded
+
+![](../assets/images/sub_assemblies/face_v6_exploded.png)

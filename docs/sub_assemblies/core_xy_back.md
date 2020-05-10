@@ -5,15 +5,24 @@ title: core_xy_back
 
 # core_xy_back Sub assembly
 
+!!! info "More angles"
+    Check the [Printed parts](../../printed_parts/) page for more fan angles
+
 
 
 ??? info "Used in"
     
-    * [V6 Bowden Assembly](/assemblies/v6_bowden)
+    * [V6 Bowden Assembly](../../assemblies/v6_bowden)
     
-    * [V6 Titan Assembly](/assemblies/v6_titan)
+    * [V6 Titan Assembly](../../assemblies/v6_titan)
     
-    * [V6 BMG Assembly](/assemblies/v6_bmg)
+    * [Titan Aero Assembly](../../assemblies/titan_aero)
+    
+    * [V6 BMG Assembly](../../assemblies/v6_bmg)
+    
+    * [Hemera Assembly](../../assemblies/hemera)
+    
+    * [Hemera Alternative Assembly](../../assemblies/hemera_alt)
     
 
 
@@ -33,4 +42,10 @@ title: core_xy_back
 
 ## Images
 
-![](/assets/images/sub_assemblies/core_xy_back.png)![](/assets/images/sub_assemblies/core_xy_back_exploded.png)
+### Assembled
+
+![](../assets/images/sub_assemblies/core_xy_back.png)
+
+### Exploded
+
+![](../assets/images/sub_assemblies/core_xy_back_exploded.png)

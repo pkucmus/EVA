@@ -7,9 +7,10 @@ title: top_titan
 
 
 
+
 ??? info "Used in"
     
-    * [V6 Titan Assembly](/assemblies/v6_titan)
+    * [V6 Titan Assembly](../../assemblies/v6_titan)
     
 
 
@@ -27,4 +28,10 @@ title: top_titan
 
 ## Images
 
-![](/assets/images/sub_assemblies/top_titan.png)![](/assets/images/sub_assemblies/top_titan_exploded.png)
+### Assembled
+
+![](../assets/images/sub_assemblies/top_titan.png)
+
+### Exploded
+
+![](../assets/images/sub_assemblies/top_titan_exploded.png)
