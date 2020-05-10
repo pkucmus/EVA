@@ -18,10 +18,14 @@ assemblies:
       - core_xy_back
       - bottom_8mm
       - face_titan
-  # titan_aero:
-  #   display_name: "V6 Titan Aero"
-  #   sub_assemblies:
-  #     - kaka
+  titan_aero:
+    display_name: "Titan Aero"
+    sub_assemblies:
+      - v6
+      - top_cable
+      - core_xy_back
+      - bottom_14mm
+      - face_aero
   v6_bmg:
     display_name: "V6 BMG"
     sub_assemblies:
@@ -30,14 +34,22 @@ assemblies:
       - core_xy_back
       - bottom_8mm
       - face_v6
-  # v6_hemera:
-  #   display_name: "V6 Hemera"
-  #   sub_assemblies:
-  #     - kaka
-  # v6_hemera_alt:
-  #   display_name: "V6 Hemera Alternative"
-  #   sub_assemblies:
-  #     - kaka
+  hemera:
+    display_name: "Hemera"
+    sub_assemblies:
+      - v6
+      - top_cable
+      - core_xy_back
+      - bottom_8mm_angled
+      - face_hemera
+  hemera_alt:
+    display_name: "Hemera Alternative"
+    sub_assemblies:
+      - v6
+      - top_cable
+      - core_xy_back
+      - bottom_8mm_angled
+      - face_hemera_alt
 
 sub_assemblies:
   v6:
@@ -94,6 +106,10 @@ sub_assemblies:
         qty: 1
       - part: "top_bmg"
         qty: 1
+      - part: "BMG Extruder"
+        qty: 1
+      - part: "Nema 17 Pancake 23mm"
+        qty: 1
   core_xy_back:
     description:
     parts:
@@ -122,6 +138,28 @@ sub_assemblies:
         qty: 1
       - part: "horn_duct_v2_straight"
         qty: 1
+  bottom_14mm:
+    description:
+    parts:
+      - part: "M3 x 25mm"
+        qty: 2
+      - part: "M3 hex nut"
+        qty: 2
+      - part: "bottom_14mm_duct"
+        qty: 1
+      - part: "horn_duct_v2_straight"
+        qty: 1
+  bottom_8mm_angled:
+    description:
+    parts:
+      - part: "M3 x 20mm"
+        qty: 2
+      - part: "M3 hex nut"
+        qty: 2
+      - part: "bottom_8mm_duct"
+        qty: 1
+      - part: "horn_duct_v2_angled_20deg"
+        qty: 1
   face_v6:
     description:
     parts:
@@ -143,6 +181,60 @@ sub_assemblies:
       - part: "E3D Titan"
         qty: 1
       - part: "Nema 17 Pancake 23mm"
+        qty: 1
+  face_aero:
+    description: |
+      The mentioned 23 Nema 17 motor is in this case an example - it can be thicker, in the expence of X space
+    parts:
+      - part: "M3 x 40mm"
+        qty: 4
+      - part: "M3 x 8mm"
+        qty: 1
+      - part: "M3 hex nut"
+        qty: 7
+      - part: "face_aero"
+        qty: 1
+      - part: "face_aero_support"
+        qty: 1
+      - part: "E3D Titan Aero"
+        qty: 1
+      - part: "Nema 17 Pancake 23mm"
+        qty: 1
+  face_hemera:
+    description:
+    parts:
+      - part: "M3 x 40mm"
+        qty: 4
+      - part: "M3 x 35mm"
+        qty: 2
+      - part: "M3 x 10mm"
+        qty: 2
+      - part: "M3 x 8mm"
+        qty: 3
+      - part: "M3 hex nut"
+        qty: 8
+      - part: "face_hemera"
+        qty: 1
+      - part: "face_hemera_clamp"
+        qty: 1
+      - part: "E3D Hemera"
+        qty: 1
+  face_hemera_alt:
+    description:
+    parts:
+      - part: "M3 x 40mm"
+        qty: 4
+      - part: "M3 x 10mm"
+        qty: 4
+      - part: "M3 x 8mm"
+        qty: 3
+      - part: "M3 hex nut"
+        qty: 6
+      - part: "face_hemera_alt"
+        qty: 1
+      - part: "face_hemera_alt_probe"
+        qty: 1
+      - part: "E3D Hemera"
         qty: 1
 
 
@@ -305,10 +397,10 @@ parts:
     type: printed
     url: https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_v6.stl
   face_v6_40mm_fan:
-    path: stl/Faces/fave_v6_40mm_fan.stl
+    path: stl/Faces/face_v6_40mm_fan.stl
     print_settings: *id001
     type: printed
-    url: https://github.com/pkucmus/EVA/tree/master/stl/Faces/fave_v6_40mm_fan.stl
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_v6_40mm_fan.stl
   lj12_probe_left:
     path: stl/Probe Mounts/lj12_probe_left.stl
     print_settings: *id001
@@ -379,6 +471,11 @@ parts:
     print_settings: *id001
     type: printed
     url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_8mm_duct.stl
+  bottom_14mm_duct:
+    path: stl/Bottoms/bottom_14mm_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_14mm_duct.stl
   horn_duct_v2_straight:
     path: stl/horn_duct_v2_straight.stl
     print_settings: &id002
@@ -387,3 +484,8 @@ parts:
       parimeters: 4x ~0.4mm
     type: printed
     url: https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_straight.stl
+  horn_duct_v2_angled_20deg:
+    path: stl/horn_duct_v2_angled_20deg.stl
+    print_settings: *id002
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_angled_20deg.stl
