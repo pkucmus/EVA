@@ -18,7 +18,7 @@ assemblies:
       - core_xy_back
       - bottom_8mm
       - face_titan
-  # v6_Titan_Aero:
+  # titan_aero:
   #   display_name: "V6 Titan Aero"
   #   sub_assemblies:
   #     - kaka
@@ -30,11 +30,11 @@ assemblies:
       - core_xy_back
       - bottom_8mm
       - face_v6
-  # v6_Hemera:
+  # v6_hemera:
   #   display_name: "V6 Hemera"
   #   sub_assemblies:
   #     - kaka
-  # v6_Hemera_Alt:
+  # v6_hemera_alt:
   #   display_name: "V6 Hemera Alternative"
   #   sub_assemblies:
   #     - kaka

@@ -67,7 +67,7 @@ def print_parts(stl_directory):
     print(yaml.safe_dump({"parts": data}))
 
 
-def render_sub_assembly_page(name, subassembly, data):
+def render_sub_assembly_page(name, subassembly, context):
     context = {
         "name": name,
         "data": data,
@@ -77,7 +77,7 @@ def render_sub_assembly_page(name, subassembly, data):
     render_template("sub_assembly.md.template", os.path.join(BASE_PATH, "sub_assemblies", f"{name}.md"), context)
 
 
-def render_assembly_page(name, assembly, data):
+def render_assembly_page(name, assembly, context):
     context = {
         "name": name,
         "data": data
