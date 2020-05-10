@@ -1,0 +1,26 @@
+---
+title: {{ name }}
+---
+
+
+# {{ name }} Sub assembly
+
+{% if description %}{{ description }}{% endif %}
+
+??? info "Used in"
+    {% for used in usages %}
+    * [{{ used.display_name }} Assembly](/assemblies/{{ used.name }})
+    {% endfor %}
+
+
+
+## BOM
+
+| Name | Qty | Type | Link |
+| ---- | --- | ---- | ---- |
+{% for part in parts %}| {{ part.part }} | {{ part.qty }} | {{ data.parts[part.part].type }} | {% if data.parts[part.part].url %}[GitHub]({{ data.parts[part.part].url }}){% endif %} |
+{% endfor %}
+
+## Images
+
+![](/assets/images/sub_assemblies/{{ name }}.png)![](/assets/images/sub_assemblies/{{ name }}_exploded.png)
