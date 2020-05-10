@@ -1,0 +1,539 @@
+base_url: https://github.com/pkucmus/EVA/blob/master
+wiki_url: https://github.com/pkucmus/EVA/wiki
+
+carriages:
+  v6_bowden:
+    name: "V6 (bowden)"
+    id: v6_bowden
+    footprint:
+      - 62.35
+      - 133.25
+    status: "Tested"
+    bom:
+      - name: "v21 9mm slider.stl"
+        type: Printed
+        qty: 2
+        notes:
+      - name: "Tops - Top Cable.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Faces - V6 Front.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Faces - V6.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Bottoms - Straight.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Backs - Back with Tensioning.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Cable Mounts - Top.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Horns - Duct v2.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "5015 Blower Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "4010/4020 Radial Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "M3 hex nut"
+        type: Hardware
+        qty: 12
+        notes:
+      - name: "M5 nyloc hex nut"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M5x12 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x12 hex screw"
+        type: Hardware
+        qty: 7
+        notes: "4 to mount to MGN, 2 for the probe holder"
+      - name: "M3x20 hex screw"
+        type: Hardware
+        qty: 5
+        notes:
+      - name: "M3x30 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x40 hex screw"
+        type: Hardware
+        qty: 4
+        notes:
+      - name: "E3D V6 Hotend"
+        type: Other
+        qty: 1
+        notes:
+  v6_titan:
+    name: "Titan V6"
+    id: v6_titan
+    footprint:
+      - 62.35
+      - 133.25
+    status: "Tested"
+    bom:
+      - name: "v21 9mm slider.stl"
+        type: Printed
+        qty: 2
+        notes:
+      - name: "Tops - Top Titan.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Faces - V6 Front.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Faces - Titan.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Bottoms - Straight.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Backs - Back with Tensioning.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Cable Mounts - Side.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Horns - Duct v2.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Titan press fit adapter.stl"
+        type: Printed
+        qty: 1
+        notes: "Optional - if you need one"
+      - name: "5015 Blower Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "4010/4020 Radial Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "Nema 17 Pancake"
+        type: Electronics
+        qty: 1
+        notes: "23mm long body"
+      - name: "M3 hex nut"
+        type: Hardware
+        qty: 13
+        notes:
+      - name: "M5 nyloc hex nut"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M5x12 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x10 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x12 hex screw"
+        type: Hardware
+        qty: 6
+        notes: "4 to mount to MGN, 2 for the probe holder"
+      - name: "M3x20 hex screw"
+        type: Hardware
+        qty: 5
+        notes:
+      - name: "M3x30 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x40 hex screw"
+        type: Hardware
+        qty: 4
+        notes:
+      - name: "E3D V6 Hotend"
+        type: Other
+        qty: 1
+        notes:
+      - name: "E3D Titan"
+        type: Other
+        qty: 1
+        notes: "With the included screws"
+      - name: "PTFE Bowden tube"
+        type: Other
+        qty: 1
+        notes: "73.60mm"
+  v6_bmg:
+    name: "BMG V6"
+    id: v6_bmg
+    footprint:
+      - 62.35
+      - 133.25
+    status: "Tests Pending"
+    bom:
+      - name: "v21 9mm slider.stl"
+        type: Printed
+        qty: 2
+        notes:
+      - name: "Tops - Top BGM.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Faces - V6 Front.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Faces - V6.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Bottoms - Straight.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Backs - Back with Tensioning.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Cable Mounts - Side.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Horns - Duct v2.stl"
+        type: Printed
+        qty: 1
+        notes:
+
+      - name: "5015 Blower Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "4010/4020 Radial Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "Nema 17 Pancake"
+        type: Electronics
+        qty: 1
+        notes: "23mm long body"
+
+      - name: "M3 hex nut"
+        type: Hardware
+        qty: 13
+        notes:
+      - name: "M5 nyloc hex nut"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M5x12 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x12 hex screw"
+        type: Hardware
+        qty: 8
+        notes: "4 to mount to MGN, 2 for the probe holder"
+      - name: "M3x20 hex screw"
+        type: Hardware
+        qty: 5
+        notes:
+      - name: "M3x30 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x40 hex screw"
+        type: Hardware
+        qty: 7
+        notes: "3 for the BMG?"
+
+      - name: "E3D V6 Hotend"
+        type: Other
+        qty: 1
+        notes:
+      - name: "BMG Extruder"
+        type: Other
+        qty: 1
+        notes:
+      - name: "PTFE Bowden tube"
+        type: Other
+        qty: 1
+        notes: "47.5mm ???"
+  hemera:
+    name: "Hemera"
+    id: hemera
+    footprint:
+      - 77.31
+      - 152.25
+    status: "Tests Pending"
+    bom:
+      - name: "v21 9mm slider.stl"
+        type: Printed
+        qty: 2
+        notes:
+      - name: "Faces - Hemera.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Faces - Hemera Front.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Tops - Top Cable.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Bottoms - Straight.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Backs - Back with Tensioning.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Cable Mounts - Top.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Horns - Duct v2 Angled 20deg.stl"
+        type: Printed
+        qty: 1
+        notes:
+
+      - name: "5015 Blower Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "4010/4020 Radial Fan"
+        type: Electronics
+        qty: 1
+        notes:
+
+      - name: "M3 hex nut"
+        type: Hardware
+        qty: 12
+        notes:
+      - name: "M5 nyloc hex nut"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M5x12 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x8 hex screw"
+        type: Hardware
+        qty: 3
+        notes:
+      - name: "M3x10 hex screw"
+        type: Hardware
+        qty: 4
+        notes: "2 for the probe holder"
+      - name: "M3x12 hex screw"
+        type: Hardware
+        qty: 5
+        notes: "4 to mount to MGN"
+      - name: "M3x20 hex screw"
+        type: Hardware
+        qty: 3
+        notes:
+      - name: "M3x35 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x40 hex screw"
+        type: Hardware
+        qty: 4
+        notes:
+      - name: "E3D Hemera"
+        type: Other
+        qty: 1
+        notes:
+
+  hemera_alt:
+    name: "Hemera Alternative"
+    id: hemera_alt
+    footprint:
+      - 78.59
+      - 147.25
+    status: "Tests Pending"
+    bom:
+      - name: "v21 9mm slider.stl"
+        type: Printed
+        qty: 2
+        notes:
+      - name: "Faces - Hemera Alt.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Faces - Hemera Probe Front.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Tops - Top Cable.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Bottoms - Straight.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Backs - Back with Tensioning.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Cable Mounts - Top.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Horns - Duct v2 Angled 20deg.stl"
+        type: Printed
+        qty: 1
+        notes:
+
+      - name: "5015 Blower Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "4010/4020 Radial Fan"
+        type: Electronics
+        qty: 1
+        notes:
+
+      - name: "M3 hex nut"
+        type: Hardware
+        qty: 10
+        notes:
+      - name: "M5 nyloc hex nut"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M5x12 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x8 hex screw"
+        type: Hardware
+        qty: 3
+        notes:
+      - name: "M3x10 hex screw"
+        type: Hardware
+        qty: 6
+        notes: "2 for the probe holder"
+      - name: "M3x12 hex screw"
+        type: Hardware
+        qty: 5
+        notes: "4 to mount to MGN"
+      - name: "M3x20 hex screw"
+        type: Hardware
+        qty: 3
+        notes:
+      - name: "M3x40 hex screw"
+        type: Hardware
+        qty: 4
+        notes:
+      - name: "E3D Hemera"
+        type: Other
+        qty: 1
+        notes:
+
+  titan_aero:
+    name: "Titan Aero"
+    id: titan_aero
+    footprint:
+      - 69.8
+      - 149.35
+    status: "Tested"
+    bom:
+      - name: "v21 9mm slider.stl"
+        type: Printed
+        qty: 2
+        notes:
+      - name: "Faces - Aero.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Tops - Top Cable.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Bottoms - Aero.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Backs - Back with Tensioning.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Cable Mounts - Top.stl"
+        type: Printed
+        qty: 1
+        notes:
+      - name: "Horns - Duct v2.stl"
+        type: Printed
+        qty: 1
+        notes:
+
+      - name: "5015 Blower Fan"
+        type: Electronics
+        qty: 1
+        notes:
+      - name: "4010/4020 Radial Fan"
+        type: Electronics
+        qty: 1
+        notes:
+
+      - name: "M3 hex nut"
+        type: Hardware
+        qty: 11
+        notes:
+      - name: "M5 nyloc hex nut"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M5x35 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x8 hex screw"
+        type: Hardware
+        qty: 1
+        notes:
+      - name: "M3x12 hex screw"
+        type: Hardware
+        qty: 5
+        notes: "4 to mount to MGN"
+      - name: "M3x20 hex screw"
+        type: Hardware
+        qty: 1
+        notes:
+      - name: "M3x25 hex screw"
+        type: Hardware
+        qty: 2
+        notes:
+      - name: "M3x40 hex screw"
+        type: Hardware
+        qty: 4
+        notes:
+      - name: "E3D Titan with Aero"
+        type: Other
+        qty: 1
+        notes: "With the included screws"
