@@ -1,7 +1,7 @@
 # EVA MGN Carriage Platform
 
 
-![](https://github.com/pkucmus/EVA/blob/master/docs/assetsimages/lineup.png)
+![](https://github.com/pkucmus/EVA/blob/master/docs/assets/images/lineup.png)
 
 I present to you the EVA carriage platform - easy to mount, remix and use MGN carriages for different Hotend assemblies.
 
