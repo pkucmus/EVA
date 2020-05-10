@@ -7,13 +7,14 @@ title: bottom_8mm
 
 
 
+
 ??? info "Used in"
     
-    * [V6 Bowden Assembly](/assemblies/v6_bowden)
+    * [V6 Bowden Assembly](../../assemblies/v6_bowden)
     
-    * [V6 Titan Assembly](/assemblies/v6_titan)
+    * [V6 Titan Assembly](../../assemblies/v6_titan)
     
-    * [V6 BMG Assembly](/assemblies/v6_bmg)
+    * [V6 BMG Assembly](../../assemblies/v6_bmg)
     
 
 
@@ -30,4 +31,10 @@ title: bottom_8mm
 
 ## Images
 
-![](/assets/images/sub_assemblies/bottom_8mm.png)![](/assets/images/sub_assemblies/bottom_8mm_exploded.png)
+### Assembled
+
+![](../assets/images/sub_assemblies/bottom_8mm.png)
+
+### Exploded
+
+![](../assets/images/sub_assemblies/bottom_8mm_exploded.png)

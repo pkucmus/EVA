@@ -7,9 +7,16 @@ title: top_cable
 
 
 
+
 ??? info "Used in"
     
-    * [V6 Bowden Assembly](/assemblies/v6_bowden)
+    * [V6 Bowden Assembly](../../assemblies/v6_bowden)
+    
+    * [Titan Aero Assembly](../../assemblies/titan_aero)
+    
+    * [Hemera Assembly](../../assemblies/hemera)
+    
+    * [Hemera Alternative Assembly](../../assemblies/hemera_alt)
     
 
 
@@ -26,4 +33,10 @@ title: top_cable
 
 ## Images
 
-![](/assets/images/sub_assemblies/top_cable.png)![](/assets/images/sub_assemblies/top_cable_exploded.png)
+### Assembled
+
+![](../assets/images/sub_assemblies/top_cable.png)
+
+### Exploded
+
+![](../assets/images/sub_assemblies/top_cable_exploded.png)

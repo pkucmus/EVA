@@ -7,11 +7,15 @@ title: {{ name }}
 
 {% if description %}{{ description }}{% endif %}
 
+{% if usages %}
 ??? info "Used in"
     {% for used in usages %}
-    * [{{ used.display_name }} Assembly](/assemblies/{{ used.name }})
+    * [{{ used.display_name }} Assembly](../../assemblies/{{ used.name }})
     {% endfor %}
-
+{% else %}
+??? info "Not used in an assembly"
+    Please try it out and let me know how it went in the [issue tracker](https://github.com/pkucmus/EVA/issues).
+{% endif %}
 
 
 ## BOM
@@ -23,4 +27,10 @@ title: {{ name }}
 
 ## Images
 
-![](/assets/images/sub_assemblies/{{ name }}.png)![](/assets/images/sub_assemblies/{{ name }}_exploded.png)
+### Assembled
+
+![](../assets/images/sub_assemblies/{{ name }}.png)
+
+### Exploded
+
+![](../assets/images/sub_assemblies/{{ name }}_exploded.png)

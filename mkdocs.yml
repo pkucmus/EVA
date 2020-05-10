@@ -1,4 +1,4 @@
-site_name: EVA
+site_name: EVA - 3D Printer carriage platform
 site_url: https://pkucmus.github.io/EVA/
 site_author: Paweł Kucmus
 edit_uri: ""
@@ -7,9 +7,9 @@ copyright: Copyright &copy; 2020 Paweł Kucmus
 
 repo_name: pkucmus/EVA
 repo_url: https://github.com/pkucmus/EVA
-google_analytics:
-  - UA-166059985-1
-  - auto
+# google_analytics:
+#   - UA-166059985-1
+#   - auto
   
 theme:
   name: material
@@ -25,30 +25,6 @@ plugins:
   - search
   - minify:
       minify_html: true
-
-# nav:
-#   - Home: index.md
-#   - Getting started: getting-started.md
-#   - Extensions:
-#     - Admonition: extensions/admonition.md
-#     - CodeHilite: extensions/codehilite.md
-#     - Footnotes: extensions/footnotes.md
-#     - Metadata: extensions/metadata.md
-#     - Permalinks: extensions/permalinks.md
-#     - PyMdown: extensions/pymdown.md
-#   - Plugins:
-#     - Search: plugins/search.md
-#     - Minification: plugins/minification.md
-#     - Revision date: plugins/revision-date.md
-#     - Awesome pages: plugins/awesome-pages.md
-#   - Releases:
-#     - Upgrading to 5.x: releases/5.md
-#     - Upgrading to 4.x: releases/4.md
-#     - Changelog: releases/changelog.md
-#   - Customization: customization.md
-#   - Data privacy: data-privacy.md
-#   - Contributing: contributing.md
-#   - License: license.md      
 
 markdown_extensions:
   - markdown.extensions.admonition
