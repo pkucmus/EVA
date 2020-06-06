@@ -6,49 +6,49 @@ assemblies:
     display_name: "V6 Bowden"
     sub_assemblies:
       - v6
-      - top_cable
+      - top_MGN15_cable
       - core_xy_back
-      - bottom_8mm
+      - bottom_MGN15_8mm
       - face_v6
   v6_titan:
     display_name: "V6 Titan"
     sub_assemblies:
       - v6
-      - top_titan
+      - top_MGN15_titan
       - core_xy_back
-      - bottom_8mm
+      - bottom_MGN15_8mm
       - face_titan
   titan_aero:
     display_name: "Titan Aero"
     sub_assemblies:
       - v6
-      - top_cable
+      - top_MGN15_cable
       - core_xy_back
-      - bottom_14mm
+      - bottom_MGN15_14mm
       - face_aero
   v6_bmg:
     display_name: "V6 BMG"
     sub_assemblies:
       - v6
-      - top_bmg
+      - top_MGN15_bmg
       - core_xy_back
-      - bottom_8mm
+      - bottom_MGN15_8mm
       - face_v6
   hemera:
     display_name: "Hemera"
     sub_assemblies:
       - v6
-      - top_cable
+      - top_MGN15_cable
       - core_xy_back
-      - bottom_8mm_angled
+      - bottom_MGN15_8mm_angled
       - face_hemera
   hemera_alt:
     display_name: "Hemera Alternative"
     sub_assemblies:
       - v6
-      - top_cable
+      - top_MGN15_cable
       - core_xy_back
-      - bottom_8mm_angled
+      - bottom_MGN15_8mm_angled
       - face_hemera_alt
 
 sub_assemblies:
@@ -69,7 +69,7 @@ sub_assemblies:
         qty: 2
       - part: "face_v6_40mm_fan"
         qty: 1
-  top_cable:
+  top_MGN15_cable:
     description:
     parts:
       - part: "M3 x 12mm"
@@ -78,9 +78,9 @@ sub_assemblies:
         qty: 1
       - part: "cable_top"
         qty: 1
-      - part: "top_cable"
+      - part: "top_MGN15_cable"
         qty: 1
-  top_titan:
+  top_MGN15_titan:
     description:
     parts:
       - part: "M3 x 12mm"
@@ -91,9 +91,9 @@ sub_assemblies:
         qty: 2
       - part: "cable_side"
         qty: 1
-      - part: "top_titan"
+      - part: "top_MGN15_titan"
         qty: 1
-  top_bmg:
+  top_MGN15_bmg:
     description:
     parts:
       - part: "M3 x 12mm"
@@ -104,7 +104,7 @@ sub_assemblies:
         qty: 2
       - part: "cable_side"
         qty: 1
-      - part: "top_bmg"
+      - part: "top_MGN15_bmg"
         qty: 1
       - part: "BMG Extruder"
         qty: 1
@@ -146,36 +146,36 @@ sub_assemblies:
         qty: 2
       - part: "back_cartesian_60deg"
         qty: 1
-  bottom_8mm:
+  bottom_MGN15_8mm:
     description:
     parts:
       - part: "M3 x 20mm"
         qty: 2
       - part: "M3 hex nut"
         qty: 2
-      - part: "bottom_8mm_duct"
+      - part: "bottom_MGN15_8mm_duct"
         qty: 1
       - part: "horn_duct_v2_straight"
         qty: 1
-  bottom_14mm:
+  bottom_MGN15_14mm:
     description:
     parts:
       - part: "M3 x 25mm"
         qty: 2
       - part: "M3 hex nut"
         qty: 2
-      - part: "bottom_14mm_duct"
+      - part: "bottom_MGN15_14mm_duct"
         qty: 1
       - part: "horn_duct_v2_straight"
         qty: 1
-  bottom_8mm_angled:
+  bottom_MGN15_8mm_angled:
     description:
     parts:
       - part: "M3 x 20mm"
         qty: 2
       - part: "M3 hex nut"
         qty: 2
-      - part: "bottom_8mm_duct"
+      - part: "bottom_MGN15_8mm_duct"
         qty: 1
       - part: "horn_duct_v2_angled_20deg"
         qty: 1
@@ -465,36 +465,86 @@ parts:
     print_settings: *id001
     type: printed
     url: https://github.com/pkucmus/EVA/tree/master/stl/Backs/tension_slider_9mm_belt_M5_flip.stl
-  top_bmg:
-    path: stl/Tops/top_bmg.stl
+  tension_slider_6mm_belt_M3s:
+    path: stl/Backs/tension_slider_6mm_belt_M3s.stl
     print_settings: *id001
     type: printed
-    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_bmg.stl
-  top_cable:
-    path: stl/Tops/top_cable.stl
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Backs/tension_slider_6mm_belt_M3s.stl
+  tension_slider_6mm_belt_M3s_flip:
+    path: stl/Backs/tension_slider_6mm_belt_M3s_flip.stl
     print_settings: *id001
     type: printed
-    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_cable.stl
-  top_raw:
-    path: stl/Tops/top_raw.stl
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Backs/tension_slider_6mm_belt_M3s_flip.stl
+  top_MGN15_bmg:
+    path: stl/Tops/top_MGN15_bmg.stl
     print_settings: *id001
     type: printed
-    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_raw.stl
-  top_titan:
-    path: stl/Tops/top_titan.stl
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_MGN15_bmg.stl
+  top_MGN15_cable:
+    path: stl/Tops/top_MGN15_cable.stl
     print_settings: *id001
     type: printed
-    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_titan.stl
-  bottom_8mm_duct:
-    path: stl/Bottoms/bottom_8mm_duct.stl
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_MGN15_cable.stl
+  top_MGN15_raw:
+    path: stl/Tops/top_MGN15_raw.stl
     print_settings: *id001
     type: printed
-    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_8mm_duct.stl
-  bottom_14mm_duct:
-    path: stl/Bottoms/bottom_14mm_duct.stl
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_MGN15_raw.stl
+  top_MGN15_titan:
+    path: stl/Tops/top_MGN15_titan.stl
     print_settings: *id001
     type: printed
-    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_14mm_duct.stl
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_MGN15_titan.stl
+  top_MGN12_bmg:
+    path: stl/Tops/top_MGN12_bmg.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_MGN12_bmg.stl
+  top_MGN12_cable:
+    path: stl/Tops/top_MGN12_cable.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_MGN12_cable.stl
+  top_MGN12_raw:
+    path: stl/Tops/top_MGN12_raw.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_MGN12_raw.stl
+  top_MGN12_titan:
+    path: stl/Tops/top_MGN12_titan.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_MGN12_titan.stl
+  bottom_MGN15_no_duct:
+    path: stl/Bottoms/bottom_MGN15_no_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_MGN15_no_duct.stl
+  bottom_MGN15_8mm_duct:
+    path: stl/Bottoms/bottom_MGN15_8mm_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_MGN15_8mm_duct.stl
+  bottom_MGN15_14mm_duct:
+    path: stl/Bottoms/bottom_MGN15_14mm_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_MGN15_14mm_duct.stl
+  bottom_MGN12_no_duct:
+    path: stl/Bottoms/bottom_MGN12_no_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_MGN12_no_duct.stl
+  bottom_MGN12_8mm_duct:
+    path: stl/Bottoms/bottom_MGN12_8mm_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_MGN12_8mm_duct.stl
+  bottom_MGN12_12mm_duct:
+    path: stl/Bottoms/bottom_MGN12_12mm_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_MGN12_12mm_duct.stl
   horn_duct_v2_straight:
     path: stl/horn_duct_v2_straight.stl
     print_settings: &id002
@@ -508,3 +558,13 @@ parts:
     print_settings: *id002
     type: printed
     url: https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_angled_20deg.stl
+  horn_duct_v2_straight_risen:
+    path: stl/horn_duct_v2_straight_risen.stl
+    print_settings: *id002
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_straight_risen.stl
+  horn_duct_v2_angled_20deg_risen:
+    path: stl/horn_duct_v2_angled_20deg_risen.stl
+    print_settings: *id002
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_angled_20deg_risen.stl

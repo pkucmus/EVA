@@ -12,9 +12,9 @@ title: V6 BMG
 | Name | Link |
 | ---- | ---- |
 | v6 | [v6](../../sub_assemblies/v6) |
-| top_bmg | [top_bmg](../../sub_assemblies/top_bmg) |
+| top_MGN15_bmg | [top_MGN15_bmg](../../sub_assemblies/top_MGN15_bmg) |
 | core_xy_back | [core_xy_back](../../sub_assemblies/core_xy_back) |
-| bottom_8mm | [bottom_8mm](../../sub_assemblies/bottom_8mm) |
+| bottom_MGN15_8mm | [bottom_MGN15_8mm](../../sub_assemblies/bottom_MGN15_8mm) |
 | face_v6 | [face_v6](../../sub_assemblies/face_v6) |
 
 
@@ -40,10 +40,10 @@ title: V6 BMG
 | M5 x 35mm | 2 | hardware |  |
 | Nema 17 Pancake 23mm | 1 | electronics |  |
 | back_corexy_60deg | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Backs/back_corexy_60deg.stl) |
-| bottom_8mm_duct | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_8mm_duct.stl) |
+| bottom_MGN15_8mm_duct | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_MGN15_8mm_duct.stl) |
 | cable_side | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Cable%20Mounts/cable_side.stl) |
 | face_v6 | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_v6.stl) |
 | face_v6_40mm_fan | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_v6_40mm_fan.stl) |
 | horn_duct_v2_straight | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_straight.stl) |
 | tension_slider_9mm_belt_M5 | 2 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Backs/tension_slider_9mm_belt_M5.stl) |
-| top_bmg | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_bmg.stl) |
+| top_MGN15_bmg | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_MGN15_bmg.stl) |
