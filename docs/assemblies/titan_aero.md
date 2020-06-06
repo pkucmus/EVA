@@ -12,9 +12,9 @@ title: Titan Aero
 | Name | Link |
 | ---- | ---- |
 | v6 | [v6](../../sub_assemblies/v6) |
-| top_cable | [top_cable](../../sub_assemblies/top_cable) |
+| top_MGN15_cable | [top_MGN15_cable](../../sub_assemblies/top_MGN15_cable) |
 | core_xy_back | [core_xy_back](../../sub_assemblies/core_xy_back) |
-| bottom_14mm | [bottom_14mm](../../sub_assemblies/bottom_14mm) |
+| bottom_MGN15_14mm | [bottom_MGN15_14mm](../../sub_assemblies/bottom_MGN15_14mm) |
 | face_aero | [face_aero](../../sub_assemblies/face_aero) |
 
 
@@ -41,11 +41,11 @@ title: Titan Aero
 | M5 x 35mm | 2 | hardware |  |
 | Nema 17 Pancake 23mm | 1 | electronics |  |
 | back_corexy_60deg | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Backs/back_corexy_60deg.stl) |
-| bottom_14mm_duct | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_14mm_duct.stl) |
+| bottom_MGN15_14mm_duct | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_MGN15_14mm_duct.stl) |
 | cable_top | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Cable%20Mounts/cable_top.stl) |
 | face_aero | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_aero.stl) |
 | face_aero_support | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_aero_support.stl) |
 | face_v6_40mm_fan | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_v6_40mm_fan.stl) |
 | horn_duct_v2_straight | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_straight.stl) |
 | tension_slider_9mm_belt_M5 | 2 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Backs/tension_slider_9mm_belt_M5.stl) |
-| top_cable | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_cable.stl) |
+| top_MGN15_cable | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_MGN15_cable.stl) |
