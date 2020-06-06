@@ -1,0 +1,36 @@
+---
+title: {{ name }}
+---
+
+
+# {{ name }} Sub assembly
+
+{% if description %}{{ description }}{% endif %}
+
+{% if usages %}
+??? info "Used in"
+    {% for used in usages %}
+    * [{{ used.display_name }} Assembly](../../assemblies/{{ used.name }})
+    {% endfor %}
+{% else %}
+??? info "Not used in an assembly"
+    Please try it out and let me know how it went in the [issue tracker](https://github.com/pkucmus/EVA/issues).
+{% endif %}
+
+
+## BOM
+
+| Name | Qty | Type | Link |
+| ---- | --- | ---- | ---- |
+{% for part in parts %}| {{ part.part }} | {{ part.qty }} | {{ data.parts[part.part].type }} | {% if data.parts[part.part].url %}[GitHub]({{ data.parts[part.part].url }}){% endif %} |
+{% endfor %}
+
+## Images
+
+### Assembled
+
+![](../assets/images/sub_assemblies/{{ name }}.png)
+
+### Exploded
+
+![](../assets/images/sub_assemblies/{{ name }}_exploded.png)

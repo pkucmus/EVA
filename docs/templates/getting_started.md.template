@@ -1,0 +1,16 @@
+# Getting started
+
+EVA is **very** modular - this means that the final carriage assembly is achieved by picking a proper set of sub assemblies.
+
+Sub assemblies are built out of different printed, hardware and electronic parts.
+
+Bellow is a listing of available presets (assemblies) can be found which the list of sub assemblies and the parts required to build a carriage.
+
+!!! note
+    The predefined assembies are not the only possible options, i.e. check the **cartesian** back parts.
+
+* **EVA** the carriage platform
+{% for assembly, data in data.assemblies.items() %}    * **{{ data.display_name }}** - full carriage [assembly](assemblies/{{ assembly }}/)
+{% for sub_assembly in data.sub_assemblies %}        * **{{ sub_assembly }}** - [sub assembly](sub_assemblies/{{ sub_assembly }}/)
+{% endfor %}
+{% endfor %}

@@ -1,0 +1,26 @@
+---
+title: {{ display_name }}
+---
+
+
+# {{ display_name }} Assembly
+
+{{ description }}
+
+## Required sub assembiles
+
+| Name | Link |
+| ---- | ---- |
+{% for name in sub_assemblies %}| {{ name }} | [{{ name }}](../../sub_assemblies/{{ name }}) |
+{% endfor %}
+
+## Images
+
+![](../assets/images/{{ name }}.png)![](../assets/images/gifs/{{ name }}.gif)
+
+## Full Parts BOM
+
+| Name | Qty | Type | Link |
+| ---- | --- | ---- | ---- |
+{% for part in parts %}| {{ part.part }} | {{ part.qty }} | {{ data.parts[part.part].type }} | {% if data.parts[part.part].url %}[GitHub]({{ data.parts[part.part].url }}){% endif %} |
+{% endfor %}

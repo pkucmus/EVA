@@ -1,0 +1,64 @@
+site_name: EVA - 3D Printer carriage platform
+site_url: https://pkucmus.github.io/EVA/
+site_author: Paweł Kucmus
+edit_uri: ""
+
+copyright: Copyright &copy; 2020 Paweł Kucmus
+
+repo_name: pkucmus/EVA
+repo_url: https://github.com/pkucmus/EVA
+# google_analytics:
+#   - UA-166059985-1
+#   - auto
+  
+theme:
+  name: material
+  language: en
+  palette:
+    primary: green
+    accent: teal
+  # logo: images/logo.svg
+  # favicon: images/favicon.png
+  # features:
+  #   - tabs
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.highlight:
+  #     linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
