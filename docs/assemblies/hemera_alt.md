@@ -2,8 +2,9 @@
 title: Hemera Alternative
 ---
 
-
 # Hemera Alternative Assembly
+
+<div class="cloudimage-360" data-folder="../../assets/images/gifs/source/hemera_alt/" data-filename="hemera_alt_{index}.jpg" data-amount="24"></div>
 
 
 
@@ -17,10 +18,6 @@ title: Hemera Alternative
 | bottom_MGN15_8mm_angled | [bottom_MGN15_8mm_angled](../../sub_assemblies/bottom_MGN15_8mm_angled) |
 | face_hemera_alt | [face_hemera_alt](../../sub_assemblies/face_hemera_alt) |
 
-
-## Images
-
-![](../assets/images/hemera_alt.png)![](../assets/images/gifs/hemera_alt.gif)
 
 ## Full Parts BOM
 

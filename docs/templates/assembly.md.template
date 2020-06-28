@@ -2,8 +2,9 @@
 title: {{ display_name }}
 ---
 
-
 # {{ display_name }} Assembly
+
+<div class="cloudimage-360" data-folder="../../assets/images/gifs/source/{{ name }}/" data-filename="{{ name }}_{index}.jpg" data-amount="24"></div>
 
 {{ description }}
 
@@ -13,10 +14,6 @@ title: {{ display_name }}
 | ---- | ---- |
 {% for name in sub_assemblies %}| {{ name }} | [{{ name }}](../../sub_assemblies/{{ name }}) |
 {% endfor %}
-
-## Images
-
-![](../assets/images/{{ name }}.png)![](../assets/images/gifs/{{ name }}.gif)
 
 ## Full Parts BOM
 

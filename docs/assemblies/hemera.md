@@ -2,8 +2,9 @@
 title: Hemera
 ---
 
-
 # Hemera Assembly
+
+<div class="cloudimage-360" data-folder="../../assets/images/gifs/source/hemera/" data-filename="hemera_{index}.jpg" data-amount="24"></div>
 
 
 
@@ -17,10 +18,6 @@ title: Hemera
 | bottom_MGN15_8mm_angled | [bottom_MGN15_8mm_angled](../../sub_assemblies/bottom_MGN15_8mm_angled) |
 | face_hemera | [face_hemera](../../sub_assemblies/face_hemera) |
 
-
-## Images
-
-![](../assets/images/hemera.png)![](../assets/images/gifs/hemera.gif)
 
 ## Full Parts BOM
 

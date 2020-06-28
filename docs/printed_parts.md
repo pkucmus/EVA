@@ -64,3 +64,7 @@ There are two print settings to consider:
 | horn_duct_v2_angled_20deg | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_angled_20deg.stl) |
 | horn_duct_v2_straight_risen | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_straight_risen.stl) |
 | horn_duct_v2_angled_20deg_risen | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_angled_20deg_risen.stl) |
+| horn_duct_v2_volcano_straight | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_volcano_straight.stl) |
+| horn_duct_v2_volcano_angled_20deg | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_volcano_angled_20deg.stl) |
+| horn_duct_v2_volcano_straight_risen | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_volcano_straight_risen.stl) |
+| horn_duct_v2_volcano_angled_20deg_risen | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_volcano_angled_20deg_risen.stl) |

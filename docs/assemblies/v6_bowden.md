@@ -2,8 +2,9 @@
 title: V6 Bowden
 ---
 
-
 # V6 Bowden Assembly
+
+<div class="cloudimage-360" data-folder="../../assets/images/gifs/source/v6_bowden/" data-filename="v6_bowden_{index}.jpg" data-amount="24"></div>
 
 Most basic bowden V6 assembly.
 
@@ -18,10 +19,6 @@ Most basic bowden V6 assembly.
 | bottom_MGN15_8mm | [bottom_MGN15_8mm](../../sub_assemblies/bottom_MGN15_8mm) |
 | face_v6 | [face_v6](../../sub_assemblies/face_v6) |
 
-
-## Images
-
-![](../assets/images/v6_bowden.png)![](../assets/images/gifs/v6_bowden.gif)
 
 ## Full Parts BOM
 

@@ -2,8 +2,9 @@
 title: V6 Titan
 ---
 
-
 # V6 Titan Assembly
+
+<div class="cloudimage-360" data-folder="../../assets/images/gifs/source/v6_titan/" data-filename="v6_titan_{index}.jpg" data-amount="24"></div>
 
 
 
@@ -17,10 +18,6 @@ title: V6 Titan
 | bottom_MGN15_8mm | [bottom_MGN15_8mm](../../sub_assemblies/bottom_MGN15_8mm) |
 | face_titan | [face_titan](../../sub_assemblies/face_titan) |
 
-
-## Images
-
-![](../assets/images/v6_titan.png)![](../assets/images/gifs/v6_titan.gif)
 
 ## Full Parts BOM
 

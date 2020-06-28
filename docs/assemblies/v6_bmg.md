@@ -2,8 +2,9 @@
 title: V6 BMG
 ---
 
-
 # V6 BMG Assembly
+
+<div class="cloudimage-360" data-folder="../../assets/images/gifs/source/v6_bmg/" data-filename="v6_bmg_{index}.jpg" data-amount="24"></div>
 
 
 
@@ -17,10 +18,6 @@ title: V6 BMG
 | bottom_MGN15_8mm | [bottom_MGN15_8mm](../../sub_assemblies/bottom_MGN15_8mm) |
 | face_v6 | [face_v6](../../sub_assemblies/face_v6) |
 
-
-## Images
-
-![](../assets/images/v6_bmg.png)![](../assets/images/gifs/v6_bmg.gif)
 
 ## Full Parts BOM
 

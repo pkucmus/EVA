@@ -6,9 +6,8 @@ Sub assemblies are built out of different printed, hardware and electronic parts
 
 Bellow is a listing of available presets (assemblies) can be found which the list of sub assemblies and the parts required to build a carriage.
 
-
-!!! success "More to it!"
-    **Make sure to check the [configurability](../#configurability) for even more features and assembly possibilities.**
+!!! note
+    The predefined assembies are not the only possible options, i.e. check the **cartesian** back parts.
 
 * **EVA** the carriage platform
     * **V6 Bowden** - full carriage [assembly](assemblies/v6_bowden/)

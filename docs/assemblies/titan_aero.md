@@ -2,8 +2,9 @@
 title: Titan Aero
 ---
 
-
 # Titan Aero Assembly
+
+<div class="cloudimage-360" data-folder="../../assets/images/gifs/source/titan_aero/" data-filename="titan_aero_{index}.jpg" data-amount="24"></div>
 
 
 
@@ -17,10 +18,6 @@ title: Titan Aero
 | bottom_MGN15_14mm | [bottom_MGN15_14mm](../../sub_assemblies/bottom_MGN15_14mm) |
 | face_aero | [face_aero](../../sub_assemblies/face_aero) |
 
-
-## Images
-
-![](../assets/images/titan_aero.png)![](../assets/images/gifs/titan_aero.gif)
 
 ## Full Parts BOM
 
