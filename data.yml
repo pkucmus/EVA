@@ -568,3 +568,23 @@ parts:
     print_settings: *id002
     type: printed
     url: https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_angled_20deg_risen.stl
+  horn_duct_v2_volcano_straight:
+    path: stl/horn_duct_v2_volcano_straight.stl
+    print_settings: *id002
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_volcano_straight.stl
+  horn_duct_v2_volcano_angled_20deg:
+    path: stl/horn_duct_v2_volcano_angled_20deg.stl
+    print_settings: *id002
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_volcano_angled_20deg.stl
+  horn_duct_v2_volcano_straight_risen:
+    path: stl/horn_duct_v2_volcano_straight_risen.stl
+    print_settings: *id002
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_volcano_straight_risen.stl
+  horn_duct_v2_volcano_angled_20deg_risen:
+    path: stl/horn_duct_v2_volcano_angled_20deg_risen.stl
+    print_settings: *id002
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/horn_duct_v2_volcano_angled_20deg_risen.stl
