@@ -1,6 +1,6 @@
 # EVA Carriages
 
-![](assets/images/lineup.png)
+<div class="cloudimage-360" data-folder="assets/images/gifs/source/lineup/" data-filename="lineup_{index}.jpg" data-amount="24" data-autoplay="true" data-speed="500" data-autoplay-reverse="true"></div>
 
 ## Platform
 
