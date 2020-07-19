@@ -2,6 +2,7 @@ import os
 import subprocess
 import shlex
 import shutil
+from copy import deepcopy
 from urllib.parse import urljoin, urlencode, quote
 
 import jinja2
@@ -139,7 +140,7 @@ def render_assembly_page(name, assembly, context):
             if part["part"] in parts:
                 parts[part["part"]]["qty"] += part["qty"]
             else:
-                parts[part["part"]] = part
+                parts[part["part"]] = deepcopy(part)
 
     context["parts"] = list(parts.values())
     context["parts"].sort(key=lambda data: data["part"])
@@ -170,6 +171,7 @@ if __name__ == "__main__":
     validate_parts_paths(data)
 
     context = {"data": data}
+
     render_template(
         "getting_started.md.template",
         os.path.join(BASE_PATH, "getting_started.md"),
@@ -182,7 +184,7 @@ if __name__ == "__main__":
     )
 
     for name, subassembly in data["sub_assemblies"].items():
-        render_sub_assembly_page(name, subassembly, data)
+        render_sub_assembly_page(name, subassembly, deepcopy(data))
 
     for name, assembly in data["assemblies"].items():
-        render_assembly_page(name, assembly, data)
+        render_assembly_page(name, assembly, deepcopy(data))
