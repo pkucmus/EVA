@@ -27,9 +27,9 @@ title: Titan Aero
 | 5015 Blower Fan | 1 | electronics |  |
 | E3D Titan Aero | 1 | other |  |
 | E3D V6 Hotend | 1 | other |  |
-| M3 hex nut | 38 | hardware |  |
+| M3 hex nut | 17 | hardware |  |
 | M3 x 12mm | 5 | hardware |  |
-| M3 x 20mm | 9 | hardware |  |
+| M3 x 20mm | 3 | hardware |  |
 | M3 x 25mm | 2 | hardware |  |
 | M3 x 30mm | 2 | hardware |  |
 | M3 x 40mm | 4 | hardware |  |

@@ -27,10 +27,10 @@ title: V6 Titan
 | 5015 Blower Fan | 1 | electronics |  |
 | E3D Titan | 1 | other |  |
 | E3D V6 Hotend | 1 | other |  |
-| M3 hex nut | 23 | hardware |  |
+| M3 hex nut | 13 | hardware |  |
 | M3 x 10mm | 2 | hardware |  |
 | M3 x 12mm | 4 | hardware |  |
-| M3 x 20mm | 8 | hardware |  |
+| M3 x 20mm | 5 | hardware |  |
 | M3 x 30mm | 2 | hardware |  |
 | M3 x 40mm | 4 | hardware |  |
 | M5 hex nut | 2 | hardware |  |

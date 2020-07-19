@@ -27,10 +27,10 @@ title: Hemera Alternative
 | 5015 Blower Fan | 1 | electronics |  |
 | E3D Hemera | 1 | other |  |
 | E3D V6 Hotend | 1 | other |  |
-| M3 hex nut | 79 | hardware |  |
+| M3 hex nut | 16 | hardware |  |
 | M3 x 10mm | 4 | hardware |  |
 | M3 x 12mm | 5 | hardware |  |
-| M3 x 20mm | 18 | hardware |  |
+| M3 x 20mm | 5 | hardware |  |
 | M3 x 30mm | 2 | hardware |  |
 | M3 x 40mm | 4 | hardware |  |
 | M3 x 8mm | 3 | hardware |  |
