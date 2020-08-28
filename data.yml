@@ -1,0 +1,670 @@
+assemblies:
+  v6_bowden:
+    description: |
+      Most basic bowden V6 assembly.
+    display_name: "V6 Bowden"
+    sub_assemblies:
+      - v6
+      - top_mgn15
+      - back_corexy
+      - bottom_mgn15_short
+      - face_v6
+  v6_titan:
+    display_name: "V6 Titan"
+    sub_assemblies:
+      - v6
+      - top_mgn15
+      - back_corexy
+      - bottom_mgn15_short
+      - face_titan
+  titan_aero:
+    display_name: "Titan Aero"
+    sub_assemblies:
+      - v6
+      - top_mgn15
+      - back_corexy
+      - bottom_mgn15_long
+      - face_aero
+  v6_bmg:
+    display_name: "V6 BMG"
+    sub_assemblies:
+      - v6
+      - top_mgn15_bmg
+      - back_corexy
+      - bottom_mgn15_short
+      - face_v6
+  hemera:
+    display_name: "Hemera"
+    sub_assemblies:
+      - top_mgn15
+      - back_corexy
+      - bottom_mgn15_short_angled
+      - face_hemera
+
+sub_assemblies:
+  top_mgn15:
+    description:
+    parts:
+      - part: "M3 x 12mm"
+        qty: 4
+      - part: "top_mgn15_raw"
+        qty: 1
+  top_mgn12:
+    description:
+    parts:
+      - part: "M3 x 12mm"
+        qty: 4
+      - part: "top_mgn12_raw"
+        qty: 1
+  top_mgn15_bmg:
+    description:
+    parts:
+      - part: "M3 x 12mm"
+        qty: 4
+      - part: "M3 x 10mm"
+        qty: 2
+        required: false
+      - part: "M3 hex nut"
+        qty: 2
+        required: false
+      - part: "cable_side"
+        qty: 1
+        required: false
+      - part: "top_mgn15_bmg"
+        qty: 1
+      - part: "BMG Extruder"
+        qty: 1
+      - part: "Nema 17 Pancake 23mm"
+        qty: 1
+  top_mgn12_bmg:
+    description:
+    parts:
+      - part: "M3 x 12mm"
+        qty: 4
+      - part: "M3 x 10mm"
+        qty: 2
+        required: false
+      - part: "M3 hex nut"
+        qty: 2
+        required: false
+      - part: "cable_side"
+        qty: 1
+        required: false
+      - part: "top_mgn12_bmg"
+        qty: 1
+      - part: "BMG Extruder"
+        qty: 1
+      - part: "Nema 17 Pancake 23mm"
+        qty: 1
+  back_corexy:
+    parts:
+      - part: "M3 x 20mm"
+        qty: 1
+      - part: "M5 x 35mm"
+        qty: 2
+      - part: "M3 hex nut"
+        qty: 8
+      - part: "M5 hex nut"
+        qty: 2
+      - part: "5015 Blower Fan"
+        qty: 1
+      - part: "tension_slider_9mm_belt_M5"
+        qty: 1
+      - part: "tension_slider_9mm_belt_M5_mirror"
+        qty: 1
+      - part: "back_corexy_60deg"
+        qty: 1
+  back_cartesian:
+    parts:
+      - part: "M3 x 20mm"
+        qty: 1
+      - part: "M3 x 25mm"
+        qty: 1
+      - part: "M3 x 35mm"
+        qty: 1
+      - part: "M3 hex nut"
+        qty: 9
+      - part: "5015 Blower Fan"
+        qty: 1
+      - part: "tension_slider_6mm_belt_M3"
+        qty: 2
+      - part: "back_cartesian"
+        qty: 1
+  back_idex:
+    parts:
+      - part: "M3 x 20mm"
+        qty: 1
+      - part: "M3 x 25mm"
+        qty: 1
+      - part: "M3 x 35mm"
+        qty: 1
+      - part: "M3 hex nut"
+        qty: 9
+      - part: "5015 Blower Fan"
+        qty: 1
+      - part: "tension_slider_6mm_belt_M3"
+        qty: 2
+      - part: "back_idex_x1"
+        qty: 1
+  bottom_mgn15_short:
+    description:
+    parts:
+      - part: "M3 x 20mm"
+        qty: 2
+      - part: "M3 hex nut"
+        qty: 2
+      - part: "bottom_mgn15_short_duct"
+        qty: 1
+      - part: "horn_duct_v2_straight"
+        qty: 1
+  bottom_mgn15_long:
+    description:
+    parts:
+      - part: "M3 x 25mm"
+        qty: 2
+      - part: "M3 hex nut"
+        qty: 2
+      - part: "bottom_mgn15_long_duct"
+        qty: 1
+      - part: "horn_duct_v2_straight"
+        qty: 1
+  bottom_mgn15_short_angled:
+    description:
+    parts:
+      - part: "M3 x 20mm"
+        qty: 2
+      - part: "M3 hex nut"
+        qty: 2
+      - part: "bottom_mgn15_short_duct"
+        qty: 1
+      - part: "horn_duct_v2_angled_20deg"
+        qty: 1
+  bottom_mgn12_short:
+    description:
+    parts:
+      - part: "M3 x 20mm"
+        qty: 2
+      - part: "M3 hex nut"
+        qty: 2
+      - part: "bottom_mgn12_short_duct"
+        qty: 1
+      - part: "horn_duct_v2_straight"
+        qty: 1
+  bottom_mgn12_long:
+    description:
+    parts:
+      - part: "M3 x 25mm"
+        qty: 2
+      - part: "M3 hex nut"
+        qty: 2
+      - part: "bottom_mgn12_long_duct"
+        qty: 1
+      - part: "horn_duct_v2_straight"
+        qty: 1
+  bottom_mgn12_short_angled:
+    description:
+    parts:
+      - part: "M3 x 20mm"
+        qty: 2
+      - part: "M3 hex nut"
+        qty: 2
+      - part: "bottom_mgn12_short_duct"
+        qty: 1
+      - part: "horn_duct_v2_angled_20deg"
+        qty: 1
+  v6:
+    description: |
+      Provides E3D V6 Hotend clamping and holds the Hotend fan. The top 30mm 
+      screws go though the 3m nuts in the choosen _face_ part.
+    parts:
+      - part: "4010/4020 Radial Fan"
+        qty: 1
+      - part: "E3D V6 Hotend"
+        qty: 1
+      - part: "M3 x 20mm"
+        qty: 2
+      - part: "M3 x 30mm"
+        qty: 2
+      - part: "M3 hex nut"
+        qty: 2
+      - part: "face_v6_40mm_fan"
+        qty: 1
+  face_v6:
+    description:
+    parts:
+      - part: "M3 x 40mm"
+        qty: 4
+      - part: "M3 hex nut"
+        qty: 2
+      - part: "face_v6"
+        qty: 1
+  face_titan:
+    description:
+    parts:
+      - part: "M3 x 40mm"
+        qty: 4
+      - part: "M3 hex nut"
+        qty: 2
+      - part: "face_titan"
+        qty: 1
+      - part: "E3D Titan"
+        qty: 1
+      - part: "Nema 17 Pancake 23mm"
+        qty: 1
+  face_aero:
+    description: |
+      The mentioned 23 Nema 17 motor is in this case an example - it can be thicker, in the expence of X space
+    parts:
+      - part: "M3 x 40mm"
+        qty: 4
+      - part: "M3 x 8mm"
+        qty: 1
+      - part: "M3 hex nut"
+        qty: 7
+      - part: "face_aero"
+        qty: 1
+      - part: "face_aero_support"
+        qty: 1
+      - part: "E3D Titan Aero"
+        qty: 1
+      - part: "Nema 17 Pancake 23mm"
+        qty: 1
+  face_hemera:
+    description:
+    parts:
+      - part: "M3 x 40mm"
+        qty: 4
+      - part: "M3 x 35mm"
+        qty: 2
+      - part: "M3 x 10mm"
+        qty: 4
+      - part: "M3 x 8mm"
+        qty: 3
+      - part: "M3 hex nut"
+        qty: 6
+      - part: "face_hemera"
+        qty: 1
+      - part: "face_hemera_front"
+        qty: 1
+      - part: "E3D Hemera"
+        qty: 1
+  universal_cable:
+    parts:
+      - part: "M3 x 10mm"
+        qty: 2
+      - part: "M3 x 12mm"
+        qty: 3
+      - part: "M3 hex nut"
+        qty: 2
+      - part: "cable_side"
+        qty: 1
+      - part: "unversal_cable_mount"
+        qty: 1
+  cartesian_cable:
+    parts:
+      - part: "M3 x 12mm"
+        qty: 1
+      - part: "M3 x 30mm"
+        qty: 2
+      - part: "cartesian_cable_fin"
+        qty: 1
+
+
+parts:
+  12mm endstop spacer:
+    path: stl/Tops/12mm endstop spacer.stl
+    print_settings: &id001
+      infill: 20%
+      layer_height: '0.3'
+      parimeters: 4x ~0.4mm
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/12mm%20endstop%20spacer.stl
+  4010/4020 Radial Fan:
+    type: electronics
+  5015 Blower Fan:
+    type: electronics
+  6mm endstop spacer:
+    path: stl/Tops/6mm endstop spacer.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/6mm%20endstop%20spacer.stl
+  BMG Extruder:
+    type: other
+  E3D Hemera:
+    type: other
+  E3D Titan:
+    type: other
+  E3D Titan Aero:
+    type: other
+  E3D V6 Hotend:
+    type: other
+  M3 hex nut:
+    type: hardware
+  M3 x 10mm:
+    type: hardware
+  M3 x 12mm:
+    type: hardware
+  M3 x 18mm:
+    type: hardware
+  M3 x 20mm:
+    type: hardware
+  M3 x 25mm:
+    type: hardware
+  M3 x 30mm:
+    type: hardware
+  M3 x 35mm:
+    type: hardware
+  M3 x 40mm:
+    type: hardware
+  M3 x 6mm:
+    type: hardware
+  M3 x 8mm:
+    type: hardware
+  M5 hex nut:
+    type: hardware
+  M5 x 35mm:
+    type: hardware
+  Nema 17 Pancake 23mm:
+    type: electronics
+  PTFE Bowden tube:
+    type: other
+  RHD_for_EVA_fan_duct:
+    path: stl/Fan Ducts/RHD_for_EVA_fan_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Fan%20Ducts/RHD_for_EVA_fan_duct.stl
+  back_cartesian:
+    path: stl/Backs/back_cartesian.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Backs/back_cartesian.stl
+  back_corexy_30deg:
+    path: stl/Backs/back_corexy_30deg.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Backs/back_corexy_30deg.stl
+  back_corexy_45deg:
+    path: stl/Backs/back_corexy_45deg.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Backs/back_corexy_45deg.stl
+  back_corexy_60deg:
+    path: stl/Backs/back_corexy_60deg.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Backs/back_corexy_60deg.stl
+  back_corexy_80deg:
+    path: stl/Backs/back_corexy_80deg.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Backs/back_corexy_80deg.stl
+  back_corexy_90deg:
+    path: stl/Backs/back_corexy_90deg.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Backs/back_corexy_90deg.stl
+  back_idex_x1:
+    path: stl/Backs/back_idex_x1.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Backs/back_idex_x1.stl
+  back_idex_x2:
+    path: stl/Backs/back_idex_x2.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Backs/back_idex_x2.stl
+  bl_touch:
+    path: stl/Probe Mounts/bl_touch.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Probe%20Mounts/bl_touch.stl
+  bl_touch_3mm:
+    path: stl/Probe Mounts/bl_touch_3mm.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Probe%20Mounts/bl_touch_3mm.stl
+  bl_touch_thick:
+    path: stl/Probe Mounts/bl_touch_thick.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Probe%20Mounts/bl_touch_thick.stl
+  bl_touch_thick_3mm:
+    path: stl/Probe Mounts/bl_touch_thick_3mm.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Probe%20Mounts/bl_touch_thick_3mm.stl
+  bottom_mgn12_long_duct:
+    path: stl/Bottoms/bottom_mgn12_long_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_mgn12_long_duct.stl
+  bottom_mgn12_no_duct:
+    path: stl/Bottoms/bottom_mgn12_no_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_mgn12_no_duct.stl
+  bottom_mgn12_short_duct:
+    path: stl/Bottoms/bottom_mgn12_short_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_mgn12_short_duct.stl
+  bottom_mgn15_long_duct:
+    path: stl/Bottoms/bottom_mgn15_long_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_mgn15_long_duct.stl
+  bottom_mgn15_no_duct:
+    path: stl/Bottoms/bottom_mgn15_no_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_mgn15_no_duct.stl
+  bottom_mgn15_short_duct:
+    path: stl/Bottoms/bottom_mgn15_short_duct.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Bottoms/bottom_mgn15_short_duct.stl
+  cable_side:
+    path: stl/Cable Mounts/cable_side.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Cable%20Mounts/cable_side.stl
+  cartesian_cable_fin:
+    path: stl/Cable Mounts/cartesian_cable_fin.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Cable%20Mounts/cartesian_cable_fin.stl
+  face_aero:
+    path: stl/Faces/face_aero.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_aero.stl
+  face_aero_support:
+    path: stl/Faces/face_aero_support.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_aero_support.stl
+  face_base:
+    path: stl/Faces/face_base.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_base.stl
+  face_hemera:
+    path: stl/Faces/face_hemera.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_hemera.stl
+  face_hemera_front:
+    path: stl/Faces/face_hemera_front.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_hemera_front.stl
+  face_titan:
+    path: stl/Faces/face_titan.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_titan.stl
+  face_v6:
+    path: stl/Faces/face_v6.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_v6.stl
+  face_v6_40mm_fan:
+    path: stl/Faces/face_v6_40mm_fan.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_v6_40mm_fan.stl
+  horn_duct_v2_angled_20deg:
+    path: stl/Fan Ducts/horn_duct_v2_angled_20deg.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Fan%20Ducts/horn_duct_v2_angled_20deg.stl
+  horn_duct_v2_angled_20deg_risen:
+    path: stl/Fan Ducts/horn_duct_v2_angled_20deg_risen.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Fan%20Ducts/horn_duct_v2_angled_20deg_risen.stl
+  horn_duct_v2_straight:
+    path: stl/Fan Ducts/horn_duct_v2_straight.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Fan%20Ducts/horn_duct_v2_straight.stl
+  horn_duct_v2_straight_risen:
+    path: stl/Fan Ducts/horn_duct_v2_straight_risen.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Fan%20Ducts/horn_duct_v2_straight_risen.stl
+  horn_duct_v2_volcano_angled_20deg:
+    path: stl/Fan Ducts/horn_duct_v2_volcano_angled_20deg.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Fan%20Ducts/horn_duct_v2_volcano_angled_20deg.stl
+  horn_duct_v2_volcano_angled_20deg_risen:
+    path: stl/Fan Ducts/horn_duct_v2_volcano_angled_20deg_risen.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Fan%20Ducts/horn_duct_v2_volcano_angled_20deg_risen.stl
+  horn_duct_v2_volcano_straight:
+    path: stl/Fan Ducts/horn_duct_v2_volcano_straight.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Fan%20Ducts/horn_duct_v2_volcano_straight.stl
+  horn_duct_v2_volcano_straight_risen:
+    path: stl/Fan Ducts/horn_duct_v2_volcano_straight_risen.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Fan%20Ducts/horn_duct_v2_volcano_straight_risen.stl
+  lj12_probe_left:
+    path: stl/Probe Mounts/lj12_probe_left.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Probe%20Mounts/lj12_probe_left.stl
+  lj12_probe_right:
+    path: stl/Probe Mounts/lj12_probe_right.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Probe%20Mounts/lj12_probe_right.stl
+  lj8_probe_center:
+    path: stl/Probe Mounts/lj8_probe_center.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Probe%20Mounts/lj8_probe_center.stl
+  lj8_probe_left:
+    path: stl/Probe Mounts/lj8_probe_left.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Probe%20Mounts/lj8_probe_left.stl
+  lj8_probe_right:
+    path: stl/Probe Mounts/lj8_probe_right.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Probe%20Mounts/lj8_probe_right.stl
+  tension_slider_6mm_belt_M3:
+    path: stl/Tension Sliders/tension_slider_6mm_belt_M3.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tension%20Sliders/tension_slider_6mm_belt_M3.stl
+  tension_slider_6mm_belt_M3_flip:
+    path: stl/Tension Sliders/tension_slider_6mm_belt_M3_flip.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tension%20Sliders/tension_slider_6mm_belt_M3_flip.stl
+  tension_slider_6mm_belt_M3_mirror:
+    path: stl/Tension Sliders/tension_slider_6mm_belt_M3_mirror.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tension%20Sliders/tension_slider_6mm_belt_M3_mirror.stl
+  tension_slider_6mm_belt_M3s:
+    path: stl/Tension Sliders/tension_slider_6mm_belt_M3s.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tension%20Sliders/tension_slider_6mm_belt_M3s.stl
+  tension_slider_6mm_belt_M3s_flip:
+    path: stl/Tension Sliders/tension_slider_6mm_belt_M3s_flip.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tension%20Sliders/tension_slider_6mm_belt_M3s_flip.stl
+  tension_slider_6mm_belt_M3s_flip_mirror:
+    path: stl/Tension Sliders/tension_slider_6mm_belt_M3s_flip_mirror.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tension%20Sliders/tension_slider_6mm_belt_M3s_flip_mirror.stl
+  tension_slider_6mm_belt_M3s_mirror:
+    path: stl/Tension Sliders/tension_slider_6mm_belt_M3s_mirror.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tension%20Sliders/tension_slider_6mm_belt_M3s_mirror.stl
+  tension_slider_9mm_belt_M3_flip_mirror:
+    path: stl/Tension Sliders/tension_slider_9mm_belt_M3_flip_mirror.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tension%20Sliders/tension_slider_9mm_belt_M3_flip_mirror.stl
+  tension_slider_9mm_belt_M5:
+    path: stl/Tension Sliders/tension_slider_9mm_belt_M5.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tension%20Sliders/tension_slider_9mm_belt_M5.stl
+  tension_slider_9mm_belt_M5_flip:
+    path: stl/Tension Sliders/tension_slider_9mm_belt_M5_flip.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tension%20Sliders/tension_slider_9mm_belt_M5_flip.stl
+  tension_slider_9mm_belt_M5_flip_mirror:
+    path: stl/Tension Sliders/tension_slider_9mm_belt_M5_flip_mirror.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tension%20Sliders/tension_slider_9mm_belt_M5_flip_mirror.stl
+  tension_slider_9mm_belt_M5_mirror:
+    path: stl/Tension Sliders/tension_slider_9mm_belt_M5_mirror.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tension%20Sliders/tension_slider_9mm_belt_M5_mirror.stl
+  titan_plug:
+    path: stl/Extras/titan_plug.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Extras/titan_plug.stl
+  top_mgn12_bmg:
+    path: stl/Tops/top_mgn12_bmg.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_mgn12_bmg.stl
+  top_mgn12_raw:
+    path: stl/Tops/top_mgn12_raw.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_mgn12_raw.stl
+  top_mgn15_bmg:
+    path: stl/Tops/top_mgn15_bmg.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_mgn15_bmg.stl
+  top_mgn15_raw:
+    path: stl/Tops/top_mgn15_raw.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_mgn15_raw.stl
+  unversal_cable_mount:
+    path: stl/Cable Mounts/unversal_cable_mount.stl
+    print_settings: *id001
+    type: printed
+    url: https://github.com/pkucmus/EVA/tree/master/stl/Cable%20Mounts/unversal_cable_mount.stl

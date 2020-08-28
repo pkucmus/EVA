@@ -1,0 +1,28 @@
+---
+title: {{ assembly.display_name }}
+---
+
+# Assembly {{ assembly.display_name }}
+
+This page is generated out of an example CoreXY carriage if you are looking for a different setup you need to count the required screws with the help of the sub assembly pages.
+I'm working on a feature that will make it easier to generate a personalized BOM - stay tuned :)
+
+<div class="cloudimage-360" data-folder="../../assets/images/gifs/source/{{ assembly.name }}/" data-filename="{{ assembly.name }}_{index}.jpg" data-amount="24"></div>
+
+{{ assembly.description }}
+
+## Required sub assembiles
+
+| Name | Link |
+| ---- | ---- |
+{% for sub_assembly in assembly.sub_assemblies %}
+| {{ sub_assembly.name }} | [{{ sub_assembly.name }}](../../sub_assemblies/{{ sub_assembly.name }}) |
+{% endfor %}
+
+## Full Parts BOM
+
+| Name | Qty | Type | Link |
+| ---- | --- | ---- | ---- |
+{% for name, part_usage in assembly.parts_usage.items() %}
+| {{ part_usage.part.name }} | {{ part_usage.qty }} | {{ part_usage.part.type }} | {% if part_usage.part.url %}[GitHub]({{ part_usage.part.url }}){% endif %} |
+{% endfor %}

@@ -1,0 +1,29 @@
+---
+title: {{ sub_assembly.name }}
+---
+
+
+# Sub assembly {{ sub_assembly.name }} 
+
+{% if sub_assembly.description %}{{ sub_assembly.description }}{% endif %}
+
+## BOM
+
+| Name | Qty | Type | Link |
+| ---- | --- | ---- | ---- |
+{% for parts_usage in sub_assembly.parts_usage %}
+| {% if parts_usage.required is not false %}**{{ parts_usage.part.name }}**{% else %}{{ parts_usage.part.name }}{% endif %} | {{ parts_usage.qty }} | {{ parts_usage.part.type }} | {% if parts_usage.part.url %}[GitHub]({{ parts_usage.part.url }}){% endif %} |
+{% endfor %}
+
+^**bold**\ are\ required\ parts^
+
+
+## Images
+
+### Assembled
+
+![](../assets/images/sub_assemblies/{{ sub_assembly.name }}.png)
+
+### Exploded
+
+![](../assets/images/sub_assemblies/{{ sub_assembly.name }}_exploded.png)
