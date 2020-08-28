@@ -12,6 +12,8 @@ repo_url: https://github.com/pkucmus/EVA
 #   - auto
   
 theme:
+  logo: assets/images/logo_white.svg
+  favicon: assets/images/logo_white.svg
   name: material
   language: en
   palette:
@@ -21,19 +23,12 @@ theme:
   # favicon: images/favicon.png
   # features:
   #   - tabs
+
 plugins:
   - search
   - minify:
       minify_html: true
   - awesome-pages
-
-arrange:
-  - index.md
-  - getting_started.md
-  - modularity.md
-  - printed_parts.md
-  - assemblies
-  - sub_assemblies
 
 extra_css:
   - css/override.css
@@ -78,3 +73,5 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+  - toc:
+      permalink: true
