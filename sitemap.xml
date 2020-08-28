@@ -4,15 +4,7 @@
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://pkucmus.github.io/EVA/cfd/</loc>
-     <lastmod>2020-08-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://pkucmus.github.io/EVA/getting_started/</loc>
-     <lastmod>2020-08-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://pkucmus.github.io/EVA/modularity/</loc>
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -21,10 +13,6 @@
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pkucmus.github.io/EVA/assemblies/hemera/</loc>
-     <lastmod>2020-08-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://pkucmus.github.io/EVA/assemblies/hemera_alt/</loc>
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -44,23 +32,43 @@
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://pkucmus.github.io/EVA/sub_assemblies/bottom_MGN15_14mm/</loc>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/back_cartesian/</loc>
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://pkucmus.github.io/EVA/sub_assemblies/bottom_MGN15_8mm/</loc>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/back_corexy/</loc>
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://pkucmus.github.io/EVA/sub_assemblies/bottom_MGN15_8mm_angled/</loc>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/back_idex/</loc>
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://pkucmus.github.io/EVA/sub_assemblies/cartesian_back/</loc>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/bottom_mgn12_long/</loc>
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://pkucmus.github.io/EVA/sub_assemblies/core_xy_back/</loc>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/bottom_mgn12_short/</loc>
+     <lastmod>2020-08-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/bottom_mgn12_short_angled/</loc>
+     <lastmod>2020-08-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/bottom_mgn15_long/</loc>
+     <lastmod>2020-08-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/bottom_mgn15_short/</loc>
+     <lastmod>2020-08-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/bottom_mgn15_short_angled/</loc>
+     <lastmod>2020-08-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/cartesian_cable/</loc>
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
@@ -72,10 +80,6 @@
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://pkucmus.github.io/EVA/sub_assemblies/face_hemera_alt/</loc>
-     <lastmod>2020-08-28</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
      <loc>https://pkucmus.github.io/EVA/sub_assemblies/face_titan/</loc>
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
@@ -84,19 +88,31 @@
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://pkucmus.github.io/EVA/sub_assemblies/top_MGN15_bmg/</loc>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/top_mgn12/</loc>
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://pkucmus.github.io/EVA/sub_assemblies/top_MGN15_cable/</loc>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/top_mgn12_bmg/</loc>
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://pkucmus.github.io/EVA/sub_assemblies/top_MGN15_titan/</loc>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/top_mgn15/</loc>
+     <lastmod>2020-08-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/top_mgn15_bmg/</loc>
+     <lastmod>2020-08-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://pkucmus.github.io/EVA/sub_assemblies/universal_cable/</loc>
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://pkucmus.github.io/EVA/sub_assemblies/v6/</loc>
+     <lastmod>2020-08-28</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://pkucmus.github.io/EVA/step_files/</loc>
      <lastmod>2020-08-28</lastmod>
      <changefreq>daily</changefreq>
     </url>
