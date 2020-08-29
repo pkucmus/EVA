@@ -19,6 +19,9 @@ class Part:
     def __repr__(self):
         return f"Part: {self.name}"
 
+    def __eq__(self, other):
+        return self.name == other.name
+
 
 class PartUsage:
     def __init__(self, part: Part, qty: int, required: bool = True):

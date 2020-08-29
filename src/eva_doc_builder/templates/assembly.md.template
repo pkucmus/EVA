@@ -9,7 +9,9 @@ I'm working on a feature that will make it easier to generate a personalized BOM
 
 <div class="cloudimage-360" data-folder="../../assets/images/gifs/source/{{ assembly.name }}/" data-filename="{{ assembly.name }}_{index}.jpg" data-amount="24"></div>
 
+{% if assembly.description %}
 {{ assembly.description }}
+{% endif %}
 
 ## Required sub assembiles
 

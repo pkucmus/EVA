@@ -9,7 +9,9 @@ I'm working on a feature that will make it easier to generate a personalized BOM
 
 <div class="cloudimage-360" data-folder="../../assets/images/gifs/source/v6_bmg/" data-filename="v6_bmg_{index}.jpg" data-amount="24"></div>
 
-None
+The top part can also be mirrored for a better IDEX experience if you 
+have a mirrored BMG
+
 
 ## Required sub assembiles
 
@@ -27,12 +29,12 @@ None
 | ---- | --- | ---- | ---- |
 | 4010/4020 Radial Fan | 1 | electronics |  |
 | E3D V6 Hotend | 1 | other |  |
+| M3 x 10mm | 4 | hardware |  |
 | M3 x 20mm | 5 | hardware |  |
 | M3 x 30mm | 2 | hardware |  |
 | M3 hex nut | 16 | hardware |  |
 | face_v6_40mm_fan | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_v6_40mm_fan.stl) |
 | M3 x 12mm | 4 | hardware |  |
-| M3 x 10mm | 2 | hardware |  |
 | cable_side | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Cable%20Mounts/cable_side.stl) |
 | top_mgn15_bmg | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_mgn15_bmg.stl) |
 | BMG Extruder | 1 | other |  |

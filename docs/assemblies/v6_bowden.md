@@ -28,6 +28,7 @@ Most basic bowden V6 assembly.
 | ---- | --- | ---- | ---- |
 | 4010/4020 Radial Fan | 1 | electronics |  |
 | E3D V6 Hotend | 1 | other |  |
+| M3 x 10mm | 2 | hardware |  |
 | M3 x 20mm | 5 | hardware |  |
 | M3 x 30mm | 2 | hardware |  |
 | M3 hex nut | 14 | hardware |  |

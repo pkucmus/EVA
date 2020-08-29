@@ -16,7 +16,7 @@ This manual is full of links to specific parts, {==**but there is no need to dow
 
 ## MGN12 and MGN15
 
-All listed assemblies are pointing to MGN15 variants but a smaller (and probably better) MGN12 vartiant is now also available. MGN12 is lighter so it's a good choice for a CoreXY system to make the X rail assembly lighter. Both variants are fully compatible with each other, which means that you only need to change the MGN rail, your top and bottom parts and you are set.
+All listed assemblies are pointing to MGN15 variants but a smaller (and probably better) MGN12 variant is now also available. MGN12 is lighter so it's a good choice for a CoreXY system to make the X rail assembly lighter. Both variants are fully compatible with each other, which means that you only need to change the MGN rail, your top and bottom parts and you are set.
 
 ![](assets/images/MGN12_15.png)
 
@@ -35,13 +35,13 @@ Issues, problems, feature requests, requests for compatibility with different pr
 
 ## Attributions
 
-One does not need a keen eye to see that this design it's based on many different designs that are out in the wild - although all the parts here are made from scratch - their authors deserve credit (their work provided inspiration):
+One does not need a keen eye to see that this design is based on many different designs that are out in the wild - although all the parts here are made from scratch - their authors deserve credit (their work provided inspiration):
 
 * [Rat Rig](https://www.ratrig.com/) for making the V-core which is the perfect sanbox for building and modding a 3D Printer
 * [pekcitron](https://www.thingiverse.com/pekcitron/about) for the [Prusa Bear Upgrade](https://www.thingiverse.com/thing:2808408)
 * [BLV](https://www.thingiverse.com/BLV/about) and his amazing [BLV mgn cube](https://www.thingiverse.com/thing:3382718)
 
-Also, by name for their amazing work - making some of the parts, providing guidance, testing parts, keeping me in check. Their input was a huge help so please do me a fovor and checkout their work:
+The following people deserve special credit for their amazing work - making some of the parts, providing guidance, testing parts, keeping me in check. Their input was a huge help so please do me a favor and check out their work:
 
 * [Olof Ogland](http://www.olofogland.se)
 * [Simon Davie](http://www.nexxdesign.co.uk)

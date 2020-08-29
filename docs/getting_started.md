@@ -20,7 +20,7 @@ Then there are extra parts like:
 
 ## How to pick your parts?
 
-I understand there are lots of parts and that maybe misleading but it really boils down to a few decisions that you probably made at this point.
+I understand there are lots of parts and that maybe confusing but it really boils down to a few decisions that you probably made at this point.
 
 ### Front - Extruders
 

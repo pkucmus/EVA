@@ -9,7 +9,9 @@ I'm working on a feature that will make it easier to generate a personalized BOM
 
 <div class="cloudimage-360" data-folder="../../assets/images/gifs/source/v6_titan/" data-filename="v6_titan_{index}.jpg" data-amount="24"></div>
 
-None
+The face part can also be mirrored for a better IDEX experience if you 
+have a mirrored Titan
+
 
 ## Required sub assembiles
 
@@ -27,6 +29,7 @@ None
 | ---- | --- | ---- | ---- |
 | 4010/4020 Radial Fan | 1 | electronics |  |
 | E3D V6 Hotend | 1 | other |  |
+| M3 x 10mm | 2 | hardware |  |
 | M3 x 20mm | 5 | hardware |  |
 | M3 x 30mm | 2 | hardware |  |
 | M3 hex nut | 14 | hardware |  |

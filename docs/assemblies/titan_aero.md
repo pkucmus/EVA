@@ -9,7 +9,6 @@ I'm working on a feature that will make it easier to generate a personalized BOM
 
 <div class="cloudimage-360" data-folder="../../assets/images/gifs/source/titan_aero/" data-filename="titan_aero_{index}.jpg" data-amount="24"></div>
 
-None
 
 ## Required sub assembiles
 
@@ -27,11 +26,12 @@ None
 | ---- | --- | ---- | ---- |
 | 4010/4020 Radial Fan | 1 | electronics |  |
 | E3D V6 Hotend | 1 | other |  |
+| M3 x 10mm | 2 | hardware |  |
 | M3 x 20mm | 3 | hardware |  |
 | M3 x 30mm | 2 | hardware |  |
 | M3 hex nut | 19 | hardware |  |
 | face_v6_40mm_fan | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_v6_40mm_fan.stl) |
-| M3 x 12mm | 4 | hardware |  |
+| M3 x 12mm | 6 | hardware |  |
 | top_mgn15_raw | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Tops/top_mgn15_raw.stl) |
 | M5 x 35mm | 2 | hardware |  |
 | M5 hex nut | 2 | hardware |  |

@@ -35,7 +35,9 @@ extra_css:
 
 extra_javascript:
   - https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2.4.1/js-cloudimage-360-view.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - js/cloudimage.js
+  - js/tables.js
 
 markdown_extensions:
   - markdown.extensions.admonition

@@ -11,6 +11,9 @@ assemblies:
       - face_v6
   v6_titan:
     display_name: "V6 Titan"
+    description: |
+      The face part can also be mirrored for a better IDEX experience if you 
+      have a mirrored Titan
     sub_assemblies:
       - v6
       - top_mgn15
@@ -27,6 +30,9 @@ assemblies:
       - face_aero
   v6_bmg:
     display_name: "V6 BMG"
+    description: |
+      The top part can also be mirrored for a better IDEX experience if you 
+      have a mirrored BMG
     sub_assemblies:
       - v6
       - top_mgn15_bmg
@@ -221,6 +227,8 @@ sub_assemblies:
         qty: 1
       - part: "E3D V6 Hotend"
         qty: 1
+      - part: "M3 x 10mm"
+        qty: 2
       - part: "M3 x 20mm"
         qty: 2
       - part: "M3 x 30mm"
@@ -255,6 +263,8 @@ sub_assemblies:
     description: |
       The mentioned 23 Nema 17 motor is in this case an example - it can be thicker, in the expence of X space
     parts:
+      - part: "M3 x 12mm"
+        qty: 2
       - part: "M3 x 40mm"
         qty: 4
       - part: "M3 x 8mm"
@@ -277,7 +287,7 @@ sub_assemblies:
       - part: "M3 x 35mm"
         qty: 2
       - part: "M3 x 10mm"
-        qty: 4
+        qty: 6
       - part: "M3 x 8mm"
         qty: 3
       - part: "M3 hex nut"
@@ -339,6 +349,8 @@ parts:
   E3D V6 Hotend:
     type: other
   M3 hex nut:
+    type: hardware
+  M3 square nut:
     type: hardware
   M3 x 10mm:
     type: hardware

@@ -11,6 +11,7 @@ The mentioned 23 Nema 17 motor is in this case an example - it can be thicker, i
 
 | Name | Qty | Type | Link |
 | ---- | --- | ---- | ---- |
+| **M3 x 12mm** | 2 | hardware |  |
 | **M3 x 40mm** | 4 | hardware |  |
 | **M3 x 8mm** | 1 | hardware |  |
 | **M3 hex nut** | 7 | hardware |  |

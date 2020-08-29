@@ -9,7 +9,6 @@ I'm working on a feature that will make it easier to generate a personalized BOM
 
 <div class="cloudimage-360" data-folder="../../assets/images/gifs/source/hemera/" data-filename="hemera_{index}.jpg" data-amount="24"></div>
 
-None
 
 ## Required sub assembiles
 
@@ -38,7 +37,7 @@ None
 | horn_duct_v2_angled_20deg | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Fan%20Ducts/horn_duct_v2_angled_20deg.stl) |
 | M3 x 40mm | 4 | hardware |  |
 | M3 x 35mm | 2 | hardware |  |
-| M3 x 10mm | 4 | hardware |  |
+| M3 x 10mm | 6 | hardware |  |
 | M3 x 8mm | 3 | hardware |  |
 | face_hemera | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_hemera.stl) |
 | face_hemera_front | 1 | printed | [GitHub](https://github.com/pkucmus/EVA/tree/master/stl/Faces/face_hemera_front.stl) |

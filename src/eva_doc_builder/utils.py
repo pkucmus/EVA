@@ -38,7 +38,9 @@ def load_sub_assemblies(raw_sub_assemblies, parts: Dict[str, Part]):
 def load_assemblies(raw_assemblies, sub_assemblies: Dict[str, SubAssembly]):
     for name, data in raw_assemblies.items():
         assembly = Assembly(
-            name, data["display_name"], description=data.get("description")
+            name=name,
+            display_name=data["display_name"],
+            description=data.get("description"),
         )
         for sub_assembly_data in data["sub_assemblies"]:
             assembly.add_sub_assembly(sub_assemblies[sub_assembly_data])
@@ -57,3 +59,26 @@ def load_models(raw_data):
         "sub_assemblies": sub_assemblies,
         "assemblies": assemblies,
     }
+
+
+def count_full_bom(assemblies, type_filter=None):
+    parts_usage_set = {}
+    for assembly in assemblies.values():
+        for parts_usage in assembly.parts_usage.values():
+            if (
+                type_filter is not None
+                and parts_usage.part.type != type_filter
+            ):
+                continue
+            if parts_usage.part.name not in parts_usage_set:
+                parts_usage_set[parts_usage.part.name] = parts_usage
+            else:
+                if (
+                    parts_usage.qty
+                    > parts_usage_set[parts_usage.part.name].qty
+                ):
+                    parts_usage_set[parts_usage.part.name] = parts_usage
+    import pprint
+
+    pprint.pprint(parts_usage_set)
+
