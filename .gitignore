@@ -120,9 +120,6 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
-
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -134,4 +131,3 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 .vscode/
-site/
