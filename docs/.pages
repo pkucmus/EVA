@@ -1,8 +1,0 @@
-arrange:
-  - index.md
-  - getting_started.md
-  - printed_parts.md
-  - ...
-  - assemblies
-  - sub_assemblies
-  - step_files.md

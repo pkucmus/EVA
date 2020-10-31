@@ -18,31 +18,3 @@ Visit the [project page](https://pkucmus.github.io/EVA/) for instructions and mo
 If you want to help with testing - please grab a carriage and report your findings as an [issue](https://github.com/pkucmus/EVA/issues) - please include pictures, videos and your opinion.
 
 If you see anything missing from the Instructions - please file an [issue](https://github.com/pkucmus/EVA/issues).
-
-### Generating the documentation
-
-Python3.8 required with Poetry.
-
-```bash
-poetry install
-```
-
-To generate gifs:
-
-```python
-from generate import genearate_gifs_from_directory
-
-genearate_gifs_from_directory("assets/images/gifs/source", {"id": "v6_titan"})
-```
-
-To serve the gh-page locally:
-
-```bash
-mkdocs serve
-```
-
-To deploy gh page:
-
-```bash
-mkdocs gh-deploy
-```
